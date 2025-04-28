@@ -28,15 +28,15 @@
     /* Color Variants (Primary, Secondary, Accent) */
     /* Easily move components from containers with dark-background to light background with a single value (.c1,.c2,.c3) */
     /*
-    --color-primary--type1: #003366; 
-    --color-primary--type2: #0066cc; 
-    --color-primary--type3: #80b3ff;
-    --color-secondary--type1: #003366; 
-    --color-secondary--type2: #006699; 
-    --color-secondary--type3: #99ccff; 
-    --color-accent--type1: #ff4500; 
-    --color-accent--type2: #ff7f00; 
-    --color-accent--type3: #ffa500; 
+        --color-primary--type1: #003366; 
+        --color-primary--type2: #0066cc; 
+        --color-primary--type3: #80b3ff;
+        --color-secondary--type1: #003366; 
+        --color-secondary--type2: #006699; 
+        --color-secondary--type3: #99ccff; 
+        --color-accent--type1: #ff4500; 
+        --color-accent--type2: #ff7f00; 
+        --color-accent--type3: #ffa500; 
     */
     
     
