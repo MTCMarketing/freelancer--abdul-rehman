@@ -21,3 +21,10 @@ Our solution is a system that allows quick, SEO-friendly website overhauls by si
 - **Fast Development**: Rapid customization without compromising performance or SEO.
 
 This system strikes the perfect balance between SEO optimization and fast, flexible development.
+
+---
+
+# Modify Variables to Create Theme
+see: /assets/css/index.css
+
+
