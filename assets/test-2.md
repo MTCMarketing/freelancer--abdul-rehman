@@ -1,6 +1,6 @@
 # Menu Types Overview
 
-This document outlines the different menu types you can implement in your website navigation system. The goal is to use a **standardized code convention** that allows for **easy theming, customization, and transformation** of your site's navigation. By adhering to these conventions, you can **quickly swap between different navigation looks and feels**, enabling a dynamic and predictable way to manage your site's theme.
+The goal is to establish a **standardized code convention** that allows for **easy theming, customization, and transformation** of a site's navigation. By adhering to these conventions, you can **quickly swap between different navigation looks and feels**, enabling a dynamic and predictable way to manage your site's theme.
 
 These menu types can be used as building blocks to construct various interactive elements like dropdowns, hover-triggered sections, side menus, mobile menus, and more. With this approach, you can apply new styles or completely transform your navigation structure without breaking functionality, making your website’s navigation system fully customizable and adaptable.
 
