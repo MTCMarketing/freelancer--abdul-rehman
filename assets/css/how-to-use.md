@@ -86,6 +86,16 @@ Add template level spacing to each element section.
 
 
 
+---
+
+# Quick Tips
+
+- Always use **gutter variables** between sections to keep spacing clean and consistent.
+- Apply **color type classes** (`.c1`, `.c2`, `.c3`) when switching between dark and light containers.
+- Always test your **typography classes** (`.t1`, `.t2`, `.t3`) across mobile, tablet, and desktop.
+- Don't leave **media queries** undefined, especially `--media-small`, `--media-medium`, and `--media-large`, or your site won't respond properly on different devices.
+- Combine color types and typography types together for maximum design flexibility without extra CSS overrides.
+
 
 ---
 
@@ -129,20 +139,9 @@ Ensures your font choices maintain visual balance across different device types 
 
 ---
 
-# Utility Classes Overview
-
----
-
 ## Custom Classes for Color Variants
 
 You can apply different predefined color schemes to elements using these classes:
-
-| Class | Description |
-| :----- | :----------- |
-| `.c1` | Applies **Color Type 1** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
-| `.c2` | Applies **Color Type 2** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
-| `.c3` | Applies **Color Type 3** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
-
 **Purpose:**  
 These classes allow you to instantly swap the color theme of any container, card, or section without manually adjusting text, link, or background colors.  
 Use them when you need to create strong visual separations between sections or highlight specific parts of a page.
@@ -153,25 +152,10 @@ Use them when you need to create strong visual separations between sections or h
 
 You can also apply predefined typography (font family + font size) styles using these classes:
 
-| Class | Description |
-| :----- | :----------- |
-| `.t1` | Applies **Typography Type 1** (font family and responsive font sizes for type 1). |
-| `.t2` | Applies **Typography Type 2** (font family and responsive font sizes for type 2). |
-| `.t3` | Applies **Typography Type 3** (font family and responsive font sizes for type 3). |
-
 **Purpose:**  
 These classes make it easy to maintain consistent typography across multiple sections or elements.  
 They adjust automatically depending on the device (desktop, tablet, mobile), so you don’t have to manually re-style text for responsiveness.
 
----
-
-# Quick Tips
-
-- Always use **gutter variables** between sections to keep spacing clean and consistent.
-- Apply **color type classes** (`.c1`, `.c2`, `.c3`) when switching between dark and light containers.
-- Always test your **typography classes** (`.t1`, `.t2`, `.t3`) across mobile, tablet, and desktop.
-- Don't leave **media queries** undefined, especially `--media-small`, `--media-medium`, and `--media-large`, or your site won't respond properly on different devices.
-- Combine color types and typography types together for maximum design flexibility without extra CSS overrides.
 
 ---
 
