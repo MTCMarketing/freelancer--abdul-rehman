@@ -47,7 +47,7 @@ Here is how to modify what t1 c1 actually do:
 # API Reference
 
 ## Typography Class Table Ref
-Below is a breakdown of each typography variation's suggested use case:
+You can also apply predefined typography (font family + font size) styles using the classes in the table below. Purpose: These classes make it easy to maintain consistent typography across multiple sections or elements. They adjust automatically depending on the device (desktop, tablet, mobile), so you don’t have to manually re-style text for responsiveness. Below is a breakdown of each typography variation's suggested use case:
 
 | **Class Name**        | **Typography Style**    | **Suggested Use**                                                           |
 |-----------------------|-------------------------|-----------------------------------------------------------------------------|
