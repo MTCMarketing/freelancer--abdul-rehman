@@ -26,6 +26,7 @@ These classes are used to control the spacing (margins and paddings) of elements
 <div class="mt-sm">Content with small top margin (mobile)</div>
 <div class="mb-lg">Content with large bottom margin (desktop)</div>
 <div class="mb-sm">Content with small bottom margin (mobile)</div>
+```
 
 # Custom Classes for Color Variants
 
