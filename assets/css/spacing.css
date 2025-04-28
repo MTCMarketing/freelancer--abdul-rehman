@@ -22,6 +22,21 @@
     --gutter-element-mobile: 10px;
 }
 
+
+/* Paragraph and List spacing */
+p {
+    margin-bottom: var(--gutter-element-desktop);
+}
+
+ul, ol {
+    margin-bottom: var(--gutter-element-desktop);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
 /* Section Padding */
 section {
     padding-top: var(--gutter-section-desktop);
