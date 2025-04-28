@@ -4,6 +4,16 @@ This document explains the customizable CSS variables, color variants, typograph
 Follow this guide to understand what each section does and how to use them effectively across your site.
 
 ---
+## Quick Usage Example
+```html
+  <div className="t1 c1"/>
+```
+
+
+
+
+
+---
 
 ## Color Variant Types
 
