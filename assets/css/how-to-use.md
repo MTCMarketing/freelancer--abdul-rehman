@@ -175,6 +175,32 @@ They adjust automatically depending on the device (desktop, tablet, mobile), so 
 
 ---
 
+
+## Appendix - Media Query Breakpoints
+
+| Variable | Description |
+| :-------- | :----------- |
+| `--media-small` | Base width for small devices (phones). |
+| `--media-medium` | Base width for medium devices (tablets). |
+| `--media-large` | Base width for large devices (laptops). |
+| `--media-xlarge` | Base width for extra-large devices (large desktops). |
+| `--media-extndable` | Custom width for very large monitors (optional). |
+| `--media-minimum` | Minimum width for the smallest device layouts. |
+| `--media-mobile-portrait` | Mobile devices in portrait orientation (standard phone view). |
+| `--media-mobile-landscape` | Mobile devices in landscape orientation (phone held sideways). |
+| `--media-tablet-portrait` | Tablet devices in portrait mode. |
+| `--media-tablet-landscape` | Tablet devices in landscape mode. |
+
+**Special Note:**  
+If you leave any of these variables blank, your design may fail to adjust properly at different screen sizes.  
+This could cause elements to become unreadable, overlap, or overflow outside the intended containers.  
+Always define at least the basic breakpoints (`small`, `medium`, `large`) to ensure responsiveness.  
+Orientation-specific breakpoints (`portrait`, `landscape`) are optional but very useful for extra polish on mobile and tablet devices.
+
+---
+
+
+
 ## Appendix - Variables Reference
 
 | **Variable**                                    | **Description**                                                                 |
