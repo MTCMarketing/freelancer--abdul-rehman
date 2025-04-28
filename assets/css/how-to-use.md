@@ -18,6 +18,12 @@ In another example say we move the following div from a light container (ex: whi
   <div className="t1 c2"/>
 ```
 
+## Quick Usage - Example 3
+In this example say we want to change the typopgraphy from type 1 (could be a big title) to type 2 (could be a colored title), via the following. Again more of these can be added, but should not really be done that often to ens
+
+```html
+  <div className="t2 c1"/>
+```
 
 ## Quick Template Override - Example 3
 Here is how to modify what t1 c1 actually do:
