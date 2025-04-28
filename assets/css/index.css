@@ -2,3 +2,60 @@
 @import url('../plugins/index.css');
 
 /* Uncomment Out Any Overrides Below */
+
+/* Root Variable Overrides */
+:root {
+
+    /* General Variables */
+    /*
+    --font-family-base: "Arial", sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    */
+
+  
+    /* Default Colors */
+    /*
+      --color-background: #ffffff;
+      --color-text: #333333;
+      --color-link: #0066cc;
+    */
+
+
+  
+    /* Color Variants (Primary, Secondary, Accent) */
+    /* Easily move components from containers with dark-background to light background with a single value (.c1,.c2,.c3) */
+    /*
+    --color-primary--type1: #003366; 
+    --color-primary--type2: #0066cc; 
+    --color-primary--type3: #80b3ff;
+    --color-secondary--type1: #003366; 
+    --color-secondary--type2: #006699; 
+    --color-secondary--type3: #99ccff; 
+    --color-accent--type1: #ff4500; 
+    --color-accent--type2: #ff7f00; 
+    --color-accent--type3: #ffa500; 
+    */
+    
+    
+
+    --gutter-section-desktop: 40px;
+    --gutter-section-mobile: 20px;
+    --gutter-element-desktop: 15px;
+    --gutter-element-mobile: 10px;
+
+    --media-small: 576px;
+    --media-medium: 768px;
+    --media-large: 992px;
+    --media-xlarge: 1200px;
+    --media-extndable: 1600px;
+    --media-minimum: 350px;
+
+    /* Font Sizes for Different Screen Sizes */
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+    --font-size-xlarge: 20px;
+}
