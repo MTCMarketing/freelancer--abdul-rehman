@@ -56,20 +56,6 @@ This section provides an overview of the key HTML classes used in the navigation
 
 # CSS Styling & Variables
 
-The following CSS uses variables to allow for easy customization of colors, fonts, and other styles.
-
-```css
-:root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --accent-color: #e74c3c;
-  --primary-font-family: 'Arial', sans-serif;
-}
-
-body {
-  font-family: var(--primary-font-family);
-}
-
 .main-navigation {
   background-color: var(--primary-color);
   padding: 10px;
