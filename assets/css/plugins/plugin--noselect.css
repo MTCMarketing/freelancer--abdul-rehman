@@ -1,0 +1,14 @@
+/* plugin--noselect.css
+ * 
+ * Disables text selection for various browsers and platforms.
+ * This prevents users from selecting text on elements where it's not desirable.
+ */
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version */
+}
