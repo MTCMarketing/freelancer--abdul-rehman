@@ -1,0 +1,27 @@
+/* plugin--mobile-header-menu.css
+ * 
+ * This plugin provides a mobile-friendly header with a menu that collapses 
+ * into a hamburger menu when the screen size is reduced. It includes styles 
+ * for both desktop and mobile menu behaviors.
+ */
+
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Hide menu on mobile */
+    }
+
+    .menu-toggle {
+        display: block; /* Show hamburger menu */
+        cursor: pointer;
+    }
+
+    .menu.active {
+        display: block; /* Show menu when active */
+    }
+}
+
+.menu-toggle {
+    display: none; /* Hide on desktop */
+    font-size: 30px; /* Hamburger icon size */
+    cursor: pointer;
+}
