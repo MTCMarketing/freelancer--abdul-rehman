@@ -13,12 +13,12 @@ Okay to include
 
 Not Okay to include
 - align
-- max width
+- max-width
 - font-family
 - font-size
 - etc...
 
-These are just barebones building blocks that can be used across projects easily.  
+These are just barebones building blocks that allow me to add quick backgrounds to differnt sites and can be used across projects easily.  
 
 
 For example when cloaning the following...
