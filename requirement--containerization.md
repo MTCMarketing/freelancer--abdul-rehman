@@ -1,8 +1,10 @@
 # Containerization
 Each container will be its own component. 
 
-## Requirement - full width
-The container will contain only the following:
+## Conceptulization
+The container is meant to be desined for moduality, i.e I want to have the ability to reuse a websites section containers like these in oher 
+
+
 - background colors
 - background gradients
 - abstract background shapes and/or animations
