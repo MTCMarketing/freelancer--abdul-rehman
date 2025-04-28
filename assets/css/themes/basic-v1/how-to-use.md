@@ -1,6 +1,10 @@
 # Documentation for Custom Spacing, Color, and Typography Classes
 
-This documentation provides an overview of the custom classes used for spacing, color, and typography within your project. These classes are designed to allow easy customization of the layout and design, without the need to modify the underlying CSS.
+These classes apply different typography schemes to elements by adjusting the font family and font sizes for desktop, tablet, and mobile devices. You can assign a typography scheme to elements by adding one of the following classes: `.t1`, `.t2`, or `.t3`.
+
+**Disclaimer:**  
+All padding, margins, fonts (family, size, responsive), colors, backgrounds, and other spacing or styling properties are defined via a template convention. This allows sites to be rapidly changed and customized if they follow the established convention.
+
 
 ---
 
