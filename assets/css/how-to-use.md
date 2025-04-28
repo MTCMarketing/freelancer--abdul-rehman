@@ -32,6 +32,27 @@ Here is how to modify what t1 c1 actually do:
 - see below for a variable reference guide
 
 
+## Suggested Usage
+
+Below is a breakdown of each typography variation's suggested use case:
+
+| **Class Name**        | **Typography Style**    | **Suggested Use**                                                           |
+|-----------------------|-------------------------|-----------------------------------------------------------------------------|
+| `.t1`                 | Hero Title              | For the main page header or large, impactful text.                          |
+| `.t2`                 | Hero Subtitle           | The supporting subtitle beneath the hero title.                            |
+| `.t3`                 | Section Headings        | Larger titles within sections to separate content.                         |
+| `.t4`                 | Large Text Blocks       | Main body content or long text areas (e.g., articles).                     |
+| `.t5`                 | Paragraph Text          | Standard text for general content and paragraphs.                          |
+| `.t6`                 | Smaller Text            | Used for captions or fine print.                                           |
+| `.t7`                 | Call-to-Action Text     | Prominent text prompting the user to take action.                          |
+| `.t8`                 | Navigation Links        | Text for links in the navigation menu or header.                           |
+| `.t9`                 | Footer Text             | Small text often used for copyright, links, or disclaimers.                |
+| `.t10`                | Highlighted Text        | Emphasized text, e.g., important information or alerts.                    |
+| `.t11`                | Testimonials            | Customer or client feedback section.                                       |
+| `.t12`                | Blog Post Titles        | Titles of blog posts, articles, or news updates.                           |
+| `.t13`                | Button Text             | Text inside buttons that trigger actions.                                  |
+
+
 
 
 ---
