@@ -86,10 +86,7 @@ Creates a predictable rhythm to the page and prevents elements from feeling crow
 | `.sbs` | Section Space Bottom (dynamic) - Applies bottom spacing to sections based on screen size using custom properties. |
 | `.ste` | Element Space Top (dynamic) - Applies top spacing to elements based on screen size using custom properties. |
 | `.sbe` | Element Space Bottom (dynamic) - Applies bottom spacing to elements based on screen size using custom properties. |
-| `@media (max-width: var(--media-small))` | Small Devices (phones) - Defines spacing for small screens (adjustable with custom variables). |
-| `@media (min-width: var(--media-small)) and (max-width: var(--media-medium))` | Medium Devices (tablets) - Defines spacing for medium-sized devices (adjustable with custom variables). |
-| `@media (min-width: var(--media-medium)) and (max-width: var(--media-large))` | Large Devices (laptops) - Defines spacing for large devices (adjustable with custom variables). |
-| `@media (min-width: var(--media-large))` | Extra-Large Devices (desktops) - Defines spacing for extra-large screens (adjustable with custom variables). |
+
 
 
 
