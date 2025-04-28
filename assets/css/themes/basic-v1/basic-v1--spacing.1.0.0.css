@@ -1,76 +1,49 @@
-/* Section Padding */
-section {
-    padding-top: var(--gutter-section-desktop);
-    padding-bottom: var(--gutter-section-desktop);
-}
-
+/* Media Query Breakpoints for Responsive Design */
 @media (min-width: var(--media-small)) {
-    section {
-        padding-top: var(--gutter-section-small);
-        padding-bottom: var(--gutter-section-small);
+    body {
+        font-size: var(--font-size-small);
     }
 }
 
 @media (min-width: var(--media-medium)) {
-    section {
-        padding-top: var(--gutter-section-medium);
-        padding-bottom: var(--gutter-section-medium);
+    body {
+        font-size: var(--font-size-medium);
     }
 }
 
 @media (min-width: var(--media-large)) {
-    section {
-        padding-top: var(--gutter-section-large);
-        padding-bottom: var(--gutter-section-large);
+    body {
+        font-size: var(--font-size-large);
     }
 }
 
 @media (min-width: var(--media-xlarge)) {
-    section {
-        padding-top: var(--gutter-section-xlarge);
-        padding-bottom: var(--gutter-section-xlarge);
+    body {
+        font-size: var(--font-size-xlarge);
     }
 }
 
-/* Input/textarea Padding */
-input, textarea {
-    padding: 10px;
-    margin-bottom: var(--gutter-element-desktop);
-}
-
-@media (min-width: var(--media-small)) {
-    input, textarea {
-        margin-bottom: var(--gutter-element-small);
+/* Adding missing media queries */
+@media (min-width: var(--media-mobile-portrait)) {
+    body {
+        font-size: var(--typography--font-size--mobile--type1);
     }
 }
 
-@media (min-width: var(--media-medium)) {
-    input, textarea {
-        margin-bottom: var(--gutter-element-medium);
+@media (min-width: var(--media-mobile-landscape)) {
+    body {
+        font-size: var(--typography--font-size--mobile--type2);
     }
 }
 
-@media (min-width: var(--media-large)) {
-    input, textarea {
-        margin-bottom: var(--gutter-element-large);
+@media (min-width: var(--media-tablet-portrait)) {
+    body {
+        font-size: var(--typography--font-size--tablet--type3);
     }
 }
 
-@media (min-width: var(--media-xlarge)) {
-    input, textarea {
-        margin-bottom: var(--gutter-element-xlarge);
+@media (min-width: var(--media-tablet-landscape)) {
+    body {
+        font-size: var(--typography--font-size--tablet--type2);
     }
-}
-
-/* Paragraph and List spacing */
-p {
-    margin-bottom: var(--gutter-element-desktop);
-}
-
-ul, ol {
-    margin-bottom: var(--gutter-element-desktop);
-}
-
-li {
-    margin-bottom: 10px;
 }
