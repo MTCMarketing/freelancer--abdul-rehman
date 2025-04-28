@@ -2,6 +2,31 @@
 
 This guide provides a standardized approach for creating consistent, customizable header and menu structures for websites. It uses HTML for structure, CSS for styling, and optional JavaScript for interactivity. This system allows for easy customization and ensures SEO-friendly, cross-browser compatible navigation.
 
+
+# Menu Types Overview
+
+This document outlines the different menu types you can use in your website navigation. These types can be easily incorporated into your site's header to provide various interactive elements such as dropdowns and hover-triggered sections. Each type is styled with CSS, and the behavior is defined by simple interactions like hovering or clicking.
+
+## 1. **Dropdown Menu** (`menu-item-dropdown`)
+
+- **Purpose**: Displays a sub-menu when the user hovers over or clicks on a parent menu item.
+- **Behavior**: When the user hovers over a parent item, a list of additional options (the dropdown) appears directly beneath it.
+- **Use Case**: Ideal for when you need to group multiple links under one category without taking up extra space in the navigation bar.
+
+### Example:
+```html
+<li class="menu-item menu-item-dropdown">
+  <a href="#">Services</a>
+  <ul class="dropdown">
+    <li><a href="#">Web Development</a></li>
+    <li><a href="#">SEO Services</a></li>
+    <li><a href="#">Marketing</a></li>
+  </ul>
+</li>
+
+
+
+
 ## HTML Structure
 
 The following is the basic structure of a navigation menu:
