@@ -24,7 +24,7 @@ In this example say we want to change the typopgraphy from type 1 (could be a bi
   <div className="t2 c1"/>
 ```
 
-## Quick Template Override - Example 3
+## Quick Template Override - Example 4
 Here is how to modify what t1 c1 actually do:
 - go to: assets/css/index.css
 - uncomment out or modify as necessary 
