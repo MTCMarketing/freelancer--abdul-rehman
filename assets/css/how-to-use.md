@@ -58,16 +58,16 @@ Below is a breakdown of each typography variation's suggested use case:
 ---
 
 ## Color Variant Types
-
-**(type1, type2, type3)**
-
-- **type1**: The **default color scheme**. Meant for standard sections on your site (e.g., dark text on a light background, or vice-versa depending on your design).
-- **type2**: The **opposite of the default**. If the page is mostly dark, this would be light; if the page is mostly light, this would be dark. Useful for inverting colors inside sections like popups, cards, feature blocks, etc.
-- **type3**: The **alternative color**. Often used for secondary designs like grays, super bright backgrounds, or accent-heavy sections.
-
-**Purpose:**  
 Allows easily switching an element’s entire color scheme without manually editing font color, link color, or background color individually.  
 Ideal for designing sections that need contrast against the default page style (like testimonials, feature highlights, promotions).
+
+### **Color Scheme Breakdown**
+
+| **Class Name** | **Color Scheme Type**    | **Suggested Use**                                                           |
+|----------------|--------------------------|-----------------------------------------------------------------------------|
+| `.c1`          | Color Scheme Type 1       | Best for dark-themed containers with light background. Can be used for headers or section highlights. |
+| `.c2`          | Color Scheme Type 2       | Suitable for medium-light containers. Works well in text-heavy areas with contrasting elements. |
+| `.c3`          | Color Scheme Type 3       | Ideal for light-themed containers. Works well for areas requiring subtle accents or highlights. |
 
 ---
 
