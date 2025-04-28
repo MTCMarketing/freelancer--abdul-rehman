@@ -80,24 +80,17 @@ Ideal for designing sections that need contrast against the default page style (
 Maintains consistent spacing across your design without manually adjusting margins or paddings each time.  
 Creates a predictable rhythm to the page and prevents elements from feeling crowded or randomly spaced.
 
-| **Class Name**         | **Spacing Type**          | **Suggested Use**                                                        |
-|------------------------|---------------------------|--------------------------------------------------------------------------|
-| `.st-s`                | Section Space Top (small) | For small devices (phones), adding top spacing to sections.               |
-| `.sb-s`                | Section Space Bottom (small) | For small devices (phones), adding bottom spacing to sections.            |
-| `.st-m`                | Section Space Top (medium) | For medium devices (tablets), adding top spacing to sections.             |
-| `.sb-m`                | Section Space Bottom (medium) | For medium devices (tablets), adding bottom spacing to sections.          |
-| `.st-l`                | Section Space Top (large) | For large devices (laptops), adding top spacing to sections.              |
-| `.sb-l`                | Section Space Bottom (large) | For large devices (laptops), adding bottom spacing to sections.           |
-| `.st-xl`               | Section Space Top (extra-large) | For extra-large devices (desktops), adding top spacing to sections.        |
-| `.sb-xl`               | Section Space Bottom (extra-large) | For extra-large devices (desktops), adding bottom spacing to sections.    |
-| `.st-e-s`              | Element Space Top (small) | For small devices (phones), adding top spacing to elements.               |
-| `.sb-e-s`              | Element Space Bottom (small) | For small devices (phones), adding bottom spacing to elements.            |
-| `.st-e-m`              | Element Space Top (medium) | For medium devices (tablets), adding top spacing to elements.             |
-| `.sb-e-m`              | Element Space Bottom (medium) | For medium devices (tablets), adding bottom spacing to elements.          |
-| `.st-e-l`              | Element Space Top (large) | For large devices (laptops), adding top spacing to elements.              |
-| `.sb-e-l`              | Element Space Bottom (large) | For large devices (laptops), adding bottom spacing to elements.           |
-| `.st-e-xl`             | Element Space Top (extra-large) | For extra-large devices (desktops), adding top spacing to elements.        |
-| `.sb-e-xl`             | Element Space Bottom (extra-large) | For extra-large devices (desktops), adding bottom spacing to elements.    |
+| Class | Description |
+|-------|-------------|
+| `.sts` | Section Space Top (dynamic) - Applies top spacing to sections based on screen size using custom properties. |
+| `.sbs` | Section Space Bottom (dynamic) - Applies bottom spacing to sections based on screen size using custom properties. |
+| `.ste` | Element Space Top (dynamic) - Applies top spacing to elements based on screen size using custom properties. |
+| `.sbe` | Element Space Bottom (dynamic) - Applies bottom spacing to elements based on screen size using custom properties. |
+| `@media (max-width: var(--media-small))` | Small Devices (phones) - Defines spacing for small screens (adjustable with custom variables). |
+| `@media (min-width: var(--media-small)) and (max-width: var(--media-medium))` | Medium Devices (tablets) - Defines spacing for medium-sized devices (adjustable with custom variables). |
+| `@media (min-width: var(--media-medium)) and (max-width: var(--media-large))` | Large Devices (laptops) - Defines spacing for large devices (adjustable with custom variables). |
+| `@media (min-width: var(--media-large))` | Extra-Large Devices (desktops) - Defines spacing for extra-large screens (adjustable with custom variables). |
+
 
 
 
