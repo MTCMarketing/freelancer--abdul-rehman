@@ -1,0 +1,10 @@
+/* plugin--mobile-friendly-tap-targets.css
+ * 
+ * This plugin ensures that interactive elements like buttons and links are 
+ * large enough for touchscreens, with a minimum target size of 44px by 44px.
+ */
+
+button, a {
+    min-width: 44px; /* Mobile-friendly tap target size */
+    min-height: 44px; /* Ensures the target is large enough */
+}
