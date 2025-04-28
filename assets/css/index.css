@@ -1,7 +1,17 @@
 @import url('../themes/basic-v1/index.css');
 @import url('../plugins/index.css');
 
-/* Uncomment Out to Override Root Variables Below */
+/* 
+    Override Root Variables Below
+    ----------------------------------
+    - To override a variable, simply uncomment it.
+    - You can override:
+      • General settings (font family, font size, spacing)
+      • Colors (background, text, links, primary/secondary/accent variants)
+      • Typography families and responsive font sizes
+      • Gutters (spacing between sections and elements)
+      • Media query breakpoints
+*/
 
 :root {
 
@@ -14,7 +24,6 @@
     --font-weight-bold: 700;
     */
 
-  
     /* Default Colors */
     /*
     --color-background: #ffffff;
@@ -22,28 +31,36 @@
     --color-link: #0066cc;
     */
 
-
-  
-    /* Color Variants (Primary, Secondary, Accent) */
-    /* Easily move components from containers with dark-background to light background with a single value (.c1,.c2,.c3) */
+    /* Primary Color Variants */
     /*
     --color-primary--type1: #003366; 
     --color-primary--type2: #0066cc; 
     --color-primary--type3: #80b3ff;
-    --color-secondary--type1: #003366; 
-    --color-secondary--type2: #006699; 
-    --color-secondary--type3: #99ccff; 
-    --color-accent--type1: #ff4500; 
-    --color-accent--type2: #ff7f00; 
-    --color-accent--type3: #ffa500; 
     */
 
+    /* Secondary Color Variants */
+    /*
+    --color-secondary--type1: #003366; 
+    --color-secondary--type2: #006699; 
+    --color-secondary--type3: #99ccff;
+    */
 
+    /* Accent Color Variants */
+    /*
+    --color-accent--type1: #ff4500; 
+    --color-accent--type2: #ff7f00; 
+    --color-accent--type3: #ffa500;
+    */
+
+    /* Typography - Font Families */
     /*
     --typography--font-family--type1: "Arial", sans-serif;
     --typography--font-family--type2: "Georgia", serif;
     --typography--font-family--type3: "Courier New", monospace;
+    */
 
+    /* Typography - Font Sizes (per device type) */
+    /*
     --typography--font-size--desktop--type1: 16px;
     --typography--font-size--tablet--type1: 15px;
     --typography--font-size--mobile--type1: 14px;
@@ -56,9 +73,8 @@
     --typography--font-size--tablet--type3: 19px;
     --typography--font-size--mobile--type3: 18px;
     */
-    
-    
-    /* Gutter - Vertical Spacing (between elements and sections) */
+
+    /* Gutter - Vertical Spacing */
     /*
     --gutter-section-desktop: 40px;
     --gutter-section-mobile: 20px;
@@ -66,8 +82,8 @@
     --gutter-element-mobile: 10px;
     */
 
-    /* Media Queries - breakpoints */
-    /* 
+    /* Media Queries - Standard Breakpoints */
+    /*
     --media-small: 576px;
     --media-medium: 768px;
     --media-large: 992px;
@@ -76,11 +92,11 @@
     --media-minimum: 350px;
     */
 
-    /* Font Sizes for Different Screen Sizes */
+    /* Media Queries - Additional Device Breakpoints */
     /*
-    --font-size-small: 14px;
-    --font-size-medium: 16px;
-    --font-size-large: 18px;
-    --font-size-xlarge: 20px;
+    --media-mobile-portrait: 600px;
+    --media-mobile-landscape: 768px;
+    --media-tablet-portrait: 1024px;
+    --media-tablet-landscape: 1280px;
     */
 }
