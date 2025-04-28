@@ -1,0 +1,12 @@
+/* plugins.css
+ * 
+ * This file imports all the plugin styles into a single file for easy usage.
+ * You can add or remove individual plugins based on your needs.
+ */
+
+@import 'plugin--responsive-typography.css';
+@import 'plugin--mobile-friendly-tap-targets.css';
+@import 'plugin--fluid-grid-layout.css';
+@import 'plugin--accessibility-focus-states.css';
+@import 'plugin--mobile-header-menu.css';
+@import 'plugin--scrollbar-hidden.css';
