@@ -59,3 +59,42 @@ These classes apply different color schemes to elements by adjusting the primary
 <div class="c1">Content with color scheme type 1</div>
 <div class="c2">Content with color scheme type 2</div>
 <div class="c3">Content with color scheme type 3</div>
+```
+
+# Custom Classes for Typography Variants
+
+These classes apply different typography schemes to elements by adjusting the font family and font sizes for desktop, tablet, and mobile devices. You can assign a typography scheme to elements by adding one of the following classes: `.t1`, `.t2`, or `.t3`.
+
+---
+
+## Classes:
+
+### `.t1`: Applies typography scheme type 1
+- **Font family:** `var(--typography--font-family--type1)`
+- **Desktop font size:** `var(--typography--font-size--desktop--type1)`
+- **Tablet font size:** `var(--typography--font-size--tablet--type1)`
+- **Mobile font size:** `var(--typography--font-size--mobile--type1)`
+
+### `.t2`: Applies typography scheme type 2
+- **Font family:** `var(--typography--font-family--type2)`
+- **Desktop font size:** `var(--typography--font-size--desktop--type2)`
+- **Tablet font size:** `var(--typography--font-size--tablet--type2)`
+- **Mobile font size:** `var(--typography--font-size--mobile--type2)`
+
+### `.t3`: Applies typography scheme type 3
+- **Font family:** `var(--typography--font-family--type3)`
+- **Desktop font size:** `var(--typography--font-size--desktop--type3)`
+- **Tablet font size:** `var(--typography--font-size--tablet--type3)`
+- **Mobile font size:** `var(--typography--font-size--mobile--type3)`
+
+---
+
+## Example Usage:
+
+```html
+<div class="t1">Content with typography scheme type 1</div>
+<div class="t2">Content with typography scheme type 2</div>
+<div class="t3">Content with typography scheme type 3</div>
+```
+
+
