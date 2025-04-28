@@ -23,3 +23,28 @@
     --typography--font-size--tablet: var(--typography--font-size--tablet--type3);
     --typography--font-size--mobile: var(--typography--font-size--mobile--type3);
 }
+
+/* Media Query Breakpoints for Responsive Design */
+@media (min-width: var(--media-small)) {
+    body {
+        font-size: var(--font-size-small);
+    }
+}
+
+@media (min-width: var(--media-medium)) {
+    body {
+        font-size: var(--font-size-medium);
+    }
+}
+
+@media (min-width: var(--media-large)) {
+    body {
+        font-size: var(--font-size-large);
+    }
+}
+
+@media (min-width: var(--media-xlarge)) {
+    body {
+        font-size: var(--font-size-xlarge);
+    }
+}
