@@ -31,16 +31,34 @@
     --gutter-element-desktop: 15px;
     --gutter-element-mobile: 10px;
 
+    /* default Breakpoints */
     --media-small: 576px;
     --media-medium: 768px;
     --media-large: 992px;
     --media-xlarge: 1200px;
-    --media-extndable: 1600px;
-    --media-minimum: 350px;
+    /*--media-extndable: 1600px;*/
 
-    /* Font Sizes for Different Screen Sizes */
-    --font-size-small: 14px;
-    --font-size-medium: 16px;
-    --font-size-large: 18px;
-    --font-size-xlarge: 20px;
+    /* Landscape/Portrait Breakpoints */
+    --media-mobile-portrait: 600px;
+    --media-mobile-landscape: 768px;
+    --media-tablet-portrait: 1024px;
+    --media-tablet-landscape: 1280px;
+
+    /* Typography Variables (Font Families) */
+    --typography--font-family--type1: "Arial", sans-serif;
+    --typography--font-family--type2: "Georgia", serif;
+    --typography--font-family--type3: "Courier New", monospace;
+
+    /* Typography Variables (Font Sizes) */
+    --typography--font-size--desktop--type1: 16px;
+    --typography--font-size--tablet--type1: 15px;
+    --typography--font-size--mobile--type1: 14px;
+
+    --typography--font-size--desktop--type2: 18px;
+    --typography--font-size--tablet--type2: 17px;
+    --typography--font-size--mobile--type2: 16px;
+
+    --typography--font-size--desktop--type3: 20px;
+    --typography--font-size--tablet--type3: 19px;
+    --typography--font-size--mobile--type3: 18px;
 }
