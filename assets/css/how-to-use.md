@@ -1,7 +1,6 @@
 # Custom CSS Variables & Utility Classes
 
-This document explains the customizable CSS variables, color variants, typography styles, gutter spacing, media queries, and utility classes.  
-Follow this guide to understand what each section does and how to use them effectively across your site.
+This document explains the customizable CSS variables, color variants, typography styles, gutter spacing, media queries, and utility classes. Follow this guide to understand what each section does and how to use them effectively across your site.
 
 ---
 ## Quick Usage - Example 1
