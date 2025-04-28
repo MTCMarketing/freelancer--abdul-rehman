@@ -37,3 +37,34 @@
     Example usage
     <div class="c1">Content with color scheme type 1</div>
 */
+
+
+/* Custom Classes for Typography Variants */
+/* Typography Type 1 */
+.t1 {
+    --typography--font-family: var(--typography--font-family--type1);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type1);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type1);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type1);
+}
+
+/* Typography Type 2 */
+.t2 {
+    --typography--font-family: var(--typography--font-family--type2);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type2);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type2);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type2);
+}
+
+/* Typography Type 3 */
+.t3 {
+    --typography--font-family: var(--typography--font-family--type3);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type3);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type3);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type3);
+}
+
+/*
+    Example usage
+    <div class="t1">Content with typography scheme type 1</div>
+*/
