@@ -1,6 +1,7 @@
 # Custom CSS Variables & Utility Classes
 
-This document explains the customizable CSS variables, color variants, typography styles, gutter spacing, media queries, and utility classes. Follow this guide to understand what each section does and how to use them effectively across your site.
+This document explains the customizable CSS variables, color variants, typography styles, gutter spacing, media queries, and utility classes.  
+Follow this guide to understand what each section does and how to use them effectively across your site.
 
 ---
 ## Quick Usage - Example 1
@@ -24,7 +25,7 @@ In this example say we want to change the typopgraphy from type 1 (could be a bi
   <div className="t2 c1"/>
 ```
 
-## Quick Template Override - Example 4
+## Quick Template Override - Example 3
 Here is how to modify what t1 c1 actually do:
 - go to: assets/css/index.css
 - uncomment out or modify as necessary 
@@ -57,16 +58,16 @@ Below is a breakdown of each typography variation's suggested use case:
 ---
 
 ## Color Variant Types
+
+**(type1, type2, type3)**
+
+- **type1**: The **default color scheme**. Meant for standard sections on your site (e.g., dark text on a light background, or vice-versa depending on your design).
+- **type2**: The **opposite of the default**. If the page is mostly dark, this would be light; if the page is mostly light, this would be dark. Useful for inverting colors inside sections like popups, cards, feature blocks, etc.
+- **type3**: The **alternative color**. Often used for secondary designs like grays, super bright backgrounds, or accent-heavy sections.
+
+**Purpose:**  
 Allows easily switching an element’s entire color scheme without manually editing font color, link color, or background color individually.  
 Ideal for designing sections that need contrast against the default page style (like testimonials, feature highlights, promotions).
-
-### **Color Scheme Breakdown**
-
-| **Class Name** | **Color Scheme Type**    | **Suggested Use**                                                           |
-|----------------|--------------------------|-----------------------------------------------------------------------------|
-| `.c1`          | Color Scheme Type 1       | Best for dark-themed containers with light background. Can be used for headers or section highlights. |
-| `.c2`          | Color Scheme Type 2       | Suitable for medium-light containers. Works well in text-heavy areas with contrasting elements. |
-| `.c3`          | Color Scheme Type 3       | Ideal for light-themed containers. Works well for areas requiring subtle accents or highlights. |
 
 ---
 
@@ -78,6 +79,27 @@ Ideal for designing sections that need contrast against the default page style (
 **Purpose:**  
 Maintains consistent spacing across your design without manually adjusting margins or paddings each time.  
 Creates a predictable rhythm to the page and prevents elements from feeling crowded or randomly spaced.
+
+| **Class Name**         | **Spacing Type**          | **Suggested Use**                                                        |
+|------------------------|---------------------------|--------------------------------------------------------------------------|
+| `.st-s`                | Section Space Top (small) | For small devices (phones), adding top spacing to sections.               |
+| `.sb-s`                | Section Space Bottom (small) | For small devices (phones), adding bottom spacing to sections.            |
+| `.st-m`                | Section Space Top (medium) | For medium devices (tablets), adding top spacing to sections.             |
+| `.sb-m`                | Section Space Bottom (medium) | For medium devices (tablets), adding bottom spacing to sections.          |
+| `.st-l`                | Section Space Top (large) | For large devices (laptops), adding top spacing to sections.              |
+| `.sb-l`                | Section Space Bottom (large) | For large devices (laptops), adding bottom spacing to sections.           |
+| `.st-xl`               | Section Space Top (extra-large) | For extra-large devices (desktops), adding top spacing to sections.        |
+| `.sb-xl`               | Section Space Bottom (extra-large) | For extra-large devices (desktops), adding bottom spacing to sections.    |
+| `.st-e-s`              | Element Space Top (small) | For small devices (phones), adding top spacing to elements.               |
+| `.sb-e-s`              | Element Space Bottom (small) | For small devices (phones), adding bottom spacing to elements.            |
+| `.st-e-m`              | Element Space Top (medium) | For medium devices (tablets), adding top spacing to elements.             |
+| `.sb-e-m`              | Element Space Bottom (medium) | For medium devices (tablets), adding bottom spacing to elements.          |
+| `.st-e-l`              | Element Space Top (large) | For large devices (laptops), adding top spacing to elements.              |
+| `.sb-e-l`              | Element Space Bottom (large) | For large devices (laptops), adding bottom spacing to elements.           |
+| `.st-e-xl`             | Element Space Top (extra-large) | For extra-large devices (desktops), adding top spacing to elements.        |
+| `.sb-e-xl`             | Element Space Bottom (extra-large) | For extra-large devices (desktops), adding bottom spacing to elements.    |
+
+
 
 ---
 
