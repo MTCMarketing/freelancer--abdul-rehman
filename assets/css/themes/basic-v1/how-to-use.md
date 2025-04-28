@@ -26,3 +26,35 @@ These classes are used to control the spacing (margins and paddings) of elements
 <div class="mt-sm">Content with small top margin (mobile)</div>
 <div class="mb-lg">Content with large bottom margin (desktop)</div>
 <div class="mb-sm">Content with small bottom margin (mobile)</div>
+
+# Custom Classes for Color Variants
+
+These classes apply different color schemes to elements by adjusting the primary, secondary, and accent colors. You can assign a color scheme to elements by adding one of the following classes: `.c1`, `.c2`, or `.c3`.
+
+---
+
+## Classes:
+
+### `.c1`: Applies color scheme type 1
+- **Primary color:** `#003366`
+- **Secondary color:** `#003366`
+- **Accent color:** `#ffa500`
+
+### `.c2`: Applies color scheme type 2
+- **Primary color:** `#003366`
+- **Secondary color:** `#003366`
+- **Accent color:** `#ffa500`
+
+### `.c3`: Applies color scheme type 3
+- **Primary color:** `#003366`
+- **Secondary color:** `#003366`
+- **Accent color:** `#ffa500`
+
+---
+
+## Example Usage:
+
+```html
+<div class="c1">Content with color scheme type 1</div>
+<div class="c2">Content with color scheme type 2</div>
+<div class="c3">Content with color scheme type 3</div>
