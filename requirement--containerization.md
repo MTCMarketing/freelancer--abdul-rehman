@@ -10,6 +10,15 @@ The container will contain only the following:
 For example when cloaning the following...
 
 <img width="700px" src="/assets/background-clone-example-before.png"/>
-For example when cloaning the following...
+
+The would be a component that looks something like this...
 
 <img width="700px" src="/assets/background-clone-example-after.png"/>
+
+For example...
+```tsx
+<HeroContainer>
+...
+<HeroContainer/>
+
+```
