@@ -36,8 +36,8 @@ In this example say we want set up the auto-spacing (template spacing) via the f
   <div className="ste sbe"/>
 ```
 
-
-## Quick Template Override - Example 3
+---
+# Template Override 
 Here is how to modify what t1 c1 actually do:
 - go to: assets/css/index.css
 - uncomment out or modify as necessary 
