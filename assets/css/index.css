@@ -37,14 +37,33 @@
     --color-accent--type2: #ff7f00; 
     --color-accent--type3: #ffa500; 
     */
+
+
+    /*
+    --typography--font-family--type1: "Arial", sans-serif;
+    --typography--font-family--type2: "Georgia", serif;
+    --typography--font-family--type3: "Courier New", monospace;
+
+    --typography--font-size--desktop--type1: 16px;
+    --typography--font-size--tablet--type1: 15px;
+    --typography--font-size--mobile--type1: 14px;
+
+    --typography--font-size--desktop--type2: 18px;
+    --typography--font-size--tablet--type2: 17px;
+    --typography--font-size--mobile--type2: 16px;
+
+    --typography--font-size--desktop--type3: 20px;
+    --typography--font-size--tablet--type3: 19px;
+    --typography--font-size--mobile--type3: 18px;
+    */
     
     
     /* Gutter - Vertical Spacing (between elements and sections) */
     /*
-        --gutter-section-desktop: 40px;
-        --gutter-section-mobile: 20px;
-        --gutter-element-desktop: 15px;
-        --gutter-element-mobile: 10px;
+    --gutter-section-desktop: 40px;
+    --gutter-section-mobile: 20px;
+    --gutter-element-desktop: 15px;
+    --gutter-element-mobile: 10px;
     */
 
     /* Media Queries - breakpoints */
