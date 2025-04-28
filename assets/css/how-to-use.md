@@ -68,13 +68,38 @@ Below is a breakdown of each typography variation's suggested use case:
 ## Color Class Table  Ref
 You can apply different predefined color schemes to elements using these classes (mostly used to quickly transfer from dark to light contiainer of vice versa:
 
+### Color Variant Types
+
+**(type1, type2, type3)**
+
+- **type1**: The **default color scheme**. Meant for standard sections on your site (e.g., dark text on a light background, or vice-versa depending on your design).
+- **type2**: The **opposite of the default**. If the page is mostly dark, this would be light; if the page is mostly light, this would be dark. Useful for inverting colors inside sections like popups, cards, feature blocks, etc.
+- **type3**: The **alternative color**. Often used for secondary designs like grays, super bright backgrounds, or accent-heavy sections.
+
+**Purpose:**  
+Allows easily switching an element’s entire color scheme without manually editing font color, link color, or background color individually.  
+Ideal for designing sections that need contrast against the default page style (like testimonials, feature highlights, promotions).
+
+
+
 | Class | Description |
 | :----- | :----------- |
 | `.c1` | Applies **Color Type 1** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
 | `.c2` | Applies **Color Type 2** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
 | `.c3` | Applies **Color Type 3** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
 
-## Color Class Table  Ref
+---
+
+## Gutter Variables (Spacing)
+
+- Gutter variables control the **vertical spacing** between sections and between smaller elements inside sections.
+- You should use gutter variables on **every section** (`section`, `div`, `article`, etc.) and apply them **as often as possible** inside regular `div`s too.
+
+**Purpose:**  
+Maintains consistent spacing across your design without manually adjusting margins or paddings each time.  
+Creates a predictable rhythm to the page and prevents elements from feeling crowded or randomly spaced.
+
+
 
 Add template level spacing to each element section. 
 | Class | Description |
@@ -99,28 +124,6 @@ Add template level spacing to each element section.
 
 ---
 
-## Color Variant Types
-
-**(type1, type2, type3)**
-
-- **type1**: The **default color scheme**. Meant for standard sections on your site (e.g., dark text on a light background, or vice-versa depending on your design).
-- **type2**: The **opposite of the default**. If the page is mostly dark, this would be light; if the page is mostly light, this would be dark. Useful for inverting colors inside sections like popups, cards, feature blocks, etc.
-- **type3**: The **alternative color**. Often used for secondary designs like grays, super bright backgrounds, or accent-heavy sections.
-
-**Purpose:**  
-Allows easily switching an element’s entire color scheme without manually editing font color, link color, or background color individually.  
-Ideal for designing sections that need contrast against the default page style (like testimonials, feature highlights, promotions).
-
----
-
-## Gutter Variables (Spacing)
-
-- Gutter variables control the **vertical spacing** between sections and between smaller elements inside sections.
-- You should use gutter variables on **every section** (`section`, `div`, `article`, etc.) and apply them **as often as possible** inside regular `div`s too.
-
-**Purpose:**  
-Maintains consistent spacing across your design without manually adjusting margins or paddings each time.  
-Creates a predictable rhythm to the page and prevents elements from feeling crowded or randomly spaced.
 
 
 ---
