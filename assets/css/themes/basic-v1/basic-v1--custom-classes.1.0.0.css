@@ -64,6 +64,86 @@
     --typography--font-size--mobile: var(--typography--font-size--mobile--type3);
 }
 
+/* Typography Type 4 */
+.t4 {
+    --typography--font-family: var(--typography--font-family--type4);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type4);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type4);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type4);
+}
+
+/* Typography Type 5 */
+.t5 {
+    --typography--font-family: var(--typography--font-family--type5);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type5);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type5);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type5);
+}
+
+/* Typography Type 6 */
+.t6 {
+    --typography--font-family: var(--typography--font-family--type6);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type6);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type6);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type6);
+}
+
+/* Typography Type 7 */
+.t7 {
+    --typography--font-family: var(--typography--font-family--type7);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type7);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type7);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type7);
+}
+
+/* Typography Type 8 */
+.t8 {
+    --typography--font-family: var(--typography--font-family--type8);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type8);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type8);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type8);
+}
+
+/* Typography Type 9 */
+.t9 {
+    --typography--font-family: var(--typography--font-family--type9);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type9);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type9);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type9);
+}
+
+/* Typography Type 10 */
+.t10 {
+    --typography--font-family: var(--typography--font-family--type10);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type10);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type10);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type10);
+}
+
+/* Typography Type 11 */
+.t11 {
+    --typography--font-family: var(--typography--font-family--type11);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type11);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type11);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type11);
+}
+
+/* Typography Type 12 */
+.t12 {
+    --typography--font-family: var(--typography--font-family--type12);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type12);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type12);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type12);
+}
+
+/* Typography Type 13 */
+.t13 {
+    --typography--font-family: var(--typography--font-family--type13);
+    --typography--font-size--desktop: var(--typography--font-size--desktop--type13);
+    --typography--font-size--tablet: var(--typography--font-size--tablet--type13);
+    --typography--font-size--mobile: var(--typography--font-size--mobile--type13);
+}
+
 /*
     Example usage
     <div class="t1">Content with typography scheme type 1</div>
