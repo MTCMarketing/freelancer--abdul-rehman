@@ -25,6 +25,18 @@ In this example say we want to change the typopgraphy from type 1 (could be a bi
   <div className="t2 c1"/>
 ```
 
+## Quick Usage - Example 4
+In this example say we want set up the auto-spacing (template spacing) via the following
+
+```html
+  <section className="sts sbs"/>
+```
+
+```html
+  <div className="ste sbe"/>
+```
+
+
 ## Quick Template Override - Example 3
 Here is how to modify what t1 c1 actually do:
 - go to: assets/css/index.css
