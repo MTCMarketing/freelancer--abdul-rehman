@@ -1,0 +1,11 @@
+/* plugin--accessibility-focus-states.css
+ * 
+ * This plugin ensures focusable elements like buttons and links have clear 
+ * visible focus states, making them more accessible for users navigating with 
+ * keyboard or assistive technology.
+ */
+
+button:focus, a:focus {
+    outline: 3px solid #ff9900; /* Visible focus outline */
+    outline-offset: 2px; /* Space between the element and the outline */
+}
