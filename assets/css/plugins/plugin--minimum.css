@@ -1,0 +1,17 @@
+/* plugin--minimum.css
+ * 
+ * Ensures a minimum width of 350px and allows horizontal scrolling
+ * for devices with smaller screens, preventing content overflow.
+ */
+
+html, body {
+    min-width: 350px;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 350px) {
+    html, body {
+        width: 350px;
+        overflow-x: scroll; /* Allow horizontal scrolling for smaller screens */
+    }
+}
