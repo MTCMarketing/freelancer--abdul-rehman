@@ -78,15 +78,6 @@ You can apply different predefined color schemes to elements using these classes
 
 ## Gutter Variables (Spacing)
 
-- Gutter variables control the **vertical spacing** between sections and between smaller elements inside sections.
-- You should use gutter variables on **every section** (`section`, `div`, `article`, etc.) and apply them **as often as possible** inside regular `div`s too.
-
-**Purpose:**  
-Maintains consistent spacing across your design without manually adjusting margins or paddings each time.  
-Creates a predictable rhythm to the page and prevents elements from feeling crowded or randomly spaced.
-
-
-
 Add template level spacing to each element section. 
 | Class | Description |
 |-------|-------------|
@@ -144,6 +135,21 @@ You can also apply predefined typography (font family + font size) styles using 
 **Purpose:**  
 These classes make it easy to maintain consistent typography across multiple sections or elements.  
 They adjust automatically depending on the device (desktop, tablet, mobile), so you don’t have to manually re-style text for responsiveness.
+
+
+---
+
+
+## Appendix - Spacing Variables
+
+
+- Gutter variables control the **vertical spacing** between sections and between smaller elements inside sections.
+- You should use gutter variables on **every section** (`section`, `div`, `article`, etc.) and apply them **as often as possible** inside regular `div`s too.
+
+**Purpose:**  
+Maintains consistent spacing across your design without manually adjusting margins or paddings each time.  
+Creates a predictable rhythm to the page and prevents elements from feeling crowded or randomly spaced.
+
 
 
 
