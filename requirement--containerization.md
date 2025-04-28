@@ -2,12 +2,24 @@
 Each container will be its own component. 
 
 ## Conceptulization
-The container is meant to be desined for moduality, i.e I want to have the ability to reuse a websites section containers like these in oher 
+The container is meant to be desined for moduality, i.e I want to have the ability to reuse a websites section containers like these in other websites in the future. 
 
-
+Okay to include 
 - background colors
 - background gradients
 - abstract background shapes and/or animations
+- background images
+- media-queries to be responsive
+
+Not Okay to include
+- align
+- max width
+- font-family
+- font-size
+- etc...
+
+These are just barebones building blocks that can be used across projects easily.  
+
 
 For example when cloaning the following...
 
