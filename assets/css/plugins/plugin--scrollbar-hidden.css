@@ -1,0 +1,15 @@
+/* plugin--scrollbar-hidden.css
+ * 
+ * This plugin hides the scrollbars across different browsers, providing a 
+ * cleaner look by hiding the scrollbar while still allowing scrolling functionality.
+ */
+
+.scroll-bar-hide {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scroll-bar-hide::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
