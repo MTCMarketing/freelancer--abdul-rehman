@@ -38,3 +38,16 @@ The following is the basic structure of a navigation menu:
     </li>
   </ul>
 </nav>
+
+# Key HTML Class Explanation
+
+This section provides an overview of the key HTML classes used in the navigation system.
+
+- **`.main-navigation`**: The wrapper around the entire navigation.
+- **`.menu`**: The main list of navigation items.
+- **`.menu-item`**: A basic item in the navigation.
+- **`.menu-item-dropdown`**: Indicates a dropdown item with sub-menu.
+- **`.dropdown`**: The unordered list inside the dropdown menu.
+- **`.menu-item-hover-section`**: Indicates a section that will appear when hovered, expanding into a large section with columns.
+- **`.hover-section`**: The large section that appears below the header when hovered.
+- **`.column`**: Individual column inside the section.
