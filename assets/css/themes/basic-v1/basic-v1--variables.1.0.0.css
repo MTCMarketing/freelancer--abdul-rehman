@@ -1,0 +1,46 @@
+/* Root Variables */
+:root {
+    --color-background: #ffffff;
+    --color-text: #333333;
+    --color-link: #0066cc;
+
+    /* Primary Color Variants */
+    --color-primary--type1: #003366; /* Darker primary color for type1 */
+    --color-primary--type2: #0066cc; /* Medium primary color for type2 */
+    --color-primary--type3: #80b3ff; /* Lighter primary color for type3 */
+
+    /* Secondary Color Variants */
+    --color-secondary--type1: #003366; /* Darker secondary color for type1 */
+    --color-secondary--type2: #006699; /* Medium secondary color for type2 */
+    --color-secondary--type3: #99ccff; /* Lighter secondary color for type3 */
+
+    /* Accent Color Variants */
+    --color-accent--type1: #ff4500; /* Darker accent color for type1 */
+    --color-accent--type2: #ff7f00; /* Medium accent color for type2 */
+    --color-accent--type3: #ffa500; /* Lighter accent color for type3 */
+    
+    /* General Variables */
+    --font-family-base: "Arial", sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    --gutter-section-desktop: 40px;
+    --gutter-section-mobile: 20px;
+    --gutter-element-desktop: 15px;
+    --gutter-element-mobile: 10px;
+
+    --media-small: 576px;
+    --media-medium: 768px;
+    --media-large: 992px;
+    --media-xlarge: 1200px;
+    --media-extndable: 1600px;
+    --media-minimum: 350px;
+
+    /* Font Sizes for Different Screen Sizes */
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+    --font-size-xlarge: 20px;
+}
