@@ -5,6 +5,8 @@ Follow this guide to understand what each section does and how to use them effec
 
 ---
 ## Quick Usage Example
+This is super simple, so dont overthink it. We can set preset themes in the following way. For example if we want to set an element to use typography-type-1 and color-type-1, we do so like:
+
 ```html
   <div className="t1 c1"/>
 ```
