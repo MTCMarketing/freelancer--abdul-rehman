@@ -149,6 +149,7 @@
     <div class="t1">Content with typography scheme type 1</div>
 */
 
+/* Custom Classes for Spacing */
 .st-s { padding-top: var(--gutter-section-small); }
 .sb-s { padding-bottom: var(--gutter-section-small); }
 .st-m { padding-top: var(--gutter-section-medium); }
