@@ -44,21 +44,102 @@
     --media-tablet-portrait: 1024px;
     --media-tablet-landscape: 1280px;
 
+ /* Default Font Family */
+    --typography--font--default: "Arial", sans-serif;
+
     /* Typography Variables (Font Families) */
-    --typography--font-family--type1: "Arial", sans-serif;
-    --typography--font-family--type2: "Georgia", serif;
-    --typography--font-family--type3: "Courier New", monospace;
+    
+    /* Type 1: Hero Title */
+    --typography--font-family--type1: var(--typography--font--default);
+    /* Type 2: Hero Subtitle */
+    --typography--font-family--type2: var(--typography--font--default);
+    /* Type 3: Section Headings */
+    --typography--font-family--type3: var(--typography--font--default);
+    /* Type 4: Large Text Blocks (Main Content) */
+    --typography--font-family--type4: var(--typography--font--default);
+    /* Type 5: Paragraph Text (Standard Text) */
+    --typography--font-family--type5: var(--typography--font--default);
+    /* Type 6: Smaller Text (Captions, small print) */
+    --typography--font-family--type6: var(--typography--font--default);
+    /* Type 7: Call-to-Action (CTA) Text */
+    --typography--font-family--type7: var(--typography--font--default);
+    /* Type 8: Navigation Links */
+    --typography--font-family--type8: var(--typography--font--default);
+    /* Type 9: Footer Text */
+    --typography--font-family--type9: var(--typography--font--default);
+    /* Type 10: Highlighted Text (Important Info) */
+    --typography--font-family--type10: var(--typography--font--default);
+    /* Type 11: Testimonials */
+    --typography--font-family--type11: var(--typography--font--default);
+    /* Type 12: Blog Post Titles */
+    --typography--font-family--type12: var(--typography--font--default);
+    /* Type 13: Button Text */
+    --typography--font-family--type13: var(--typography--font--default);
 
     /* Typography Variables (Font Sizes) */
+    
+    /* Hero Title - Large text for major headers */
     --typography--font-size--desktop--type1: 16px;
     --typography--font-size--tablet--type1: 15px;
     --typography--font-size--mobile--type1: 14px;
 
+    /* Hero Subtitle - Subheading to hero title */
     --typography--font-size--desktop--type2: 18px;
     --typography--font-size--tablet--type2: 17px;
     --typography--font-size--mobile--type2: 16px;
-
+    
+    /* Section Headings - Used for section titles or large headings */
     --typography--font-size--desktop--type3: 20px;
     --typography--font-size--tablet--type3: 19px;
     --typography--font-size--mobile--type3: 18px;
+
+    /* Large Text Blocks (Main Content) - For paragraphs, larger body content */
+    --typography--font-size--desktop--type4: 22px;
+    --typography--font-size--tablet--type4: 21px;
+    --typography--font-size--mobile--type4: 20px;
+
+    /* Paragraph Text (Standard Text) - Regular body text for easy reading */
+    --typography--font-size--desktop--type5: 24px;
+    --typography--font-size--tablet--type5: 23px;
+    --typography--font-size--mobile--type5: 22px;
+
+    /* Smaller Text (Captions, small print) - For fine print or captions */
+    --typography--font-size--desktop--type6: 14px;
+    --typography--font-size--tablet--type6: 13px;
+    --typography--font-size--mobile--type6: 12px;
+
+    /* Call-to-Action (CTA) Text - Highlighted action text */
+    --typography--font-size--desktop--type7: 15px;
+    --typography--font-size--tablet--type7: 14px;
+    --typography--font-size--mobile--type7: 13px;
+
+    /* Navigation Links - Links used in the header/navigation menu */
+    --typography--font-size--desktop--type8: 19px;
+    --typography--font-size--tablet--type8: 18px;
+    --typography--font-size--mobile--type8: 17px;
+
+    /* Footer Text - Smaller text for footer links or copyright */
+    --typography--font-size--desktop--type9: 17px;
+    --typography--font-size--tablet--type9: 16px;
+    --typography--font-size--mobile--type9: 15px;
+
+    /* Highlighted Text (Important Info) - Text that stands out in content */
+    --typography--font-size--desktop--type10: 21px;
+    --typography--font-size--tablet--type10: 20px;
+    --typography--font-size--mobile--type10: 19px;
+
+    /* Testimonials - Text for customer or user feedback */
+    --typography--font-size--desktop--type11: 23px;
+    --typography--font-size--tablet--type11: 22px;
+    --typography--font-size--mobile--type11: 21px;
+
+    /* Blog Post Titles - Titles of blog articles or news posts */
+    --typography--font-size--desktop--type12: 25px;
+    --typography--font-size--tablet--type12: 24px;
+    --typography--font-size--mobile--type12: 23px;
+
+    /* Button Text - Text used inside buttons or action links */
+    --typography--font-size--desktop--type13: 26px;
+    --typography--font-size--tablet--type13: 25px;
+    --typography--font-size--mobile--type13: 24px;
 }
