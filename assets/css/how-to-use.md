@@ -98,25 +98,6 @@ Add template level spacing to each element section.
 - Don't leave **media queries** undefined, especially `--media-small`, `--media-medium`, and `--media-large`, or your site won't respond properly on different devices.
 - Combine color types and typography types together for maximum design flexibility without extra CSS overrides.
 
-
----
-
-
-
----
-
-
-## Typography Variables
-
-Typography settings combine **font family** and **font size** into unified "typography types."
-
-- Some fonts naturally appear **larger** or **smaller** than others, even at the same pixel size.  
-  (Example: Arial looks smaller than Oswald at 16px.)
-- Typography types (`type1`, `type2`, `type3`) let you **pair** a font family and responsive font sizes into a matching style.
-
-**Purpose:**  
-Ensures your font choices maintain visual balance across different device types without needing to manually adjust size or font on each element.
-
 ---
 
 ## Custom Classes for Color Variants
@@ -200,6 +181,8 @@ Orientation-specific breakpoints (`portrait`, `landscape`) are optional but very
 
 
 ## Appendix - Variables Reference
+### note - Typography Variables
+Typography variables/settings combine font family and font size into unified "typography types." Some fonts naturally appear larger or smaller than others, even at the same pixel size. (Example: Arial looks smaller than Oswald at 16px.) Typography types (type1, type2, type3) let you pair a font family and responsive font sizes into a matching style. Purpose: Ensures your font choices maintain visual balance across different device types without needing to manually adjust size or font on each element.
 
 | **Variable**                                    | **Description**                                                                 |
 |-------------------------------------------------|---------------------------------------------------------------------------------|
@@ -288,5 +271,4 @@ Orientation-specific breakpoints (`portrait`, `landscape`) are optional but very
 
 ---
 
-## Typography Variables
-Typography variables/settings combine font family and font size into unified "typography types." Some fonts naturally appear larger or smaller than others, even at the same pixel size. (Example: Arial looks smaller than Oswald at 16px.) Typography types (type1, type2, type3) let you pair a font family and responsive font sizes into a matching style. Purpose: Ensures your font choices maintain visual balance across different device types without needing to manually adjust size or font on each element.
+
