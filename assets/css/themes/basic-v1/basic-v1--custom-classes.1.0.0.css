@@ -148,3 +148,21 @@
     Example usage
     <div class="t1">Content with typography scheme type 1</div>
 */
+
+.st-s { padding-top: var(--gutter-section-small); }
+.sb-s { padding-bottom: var(--gutter-section-small); }
+.st-m { padding-top: var(--gutter-section-medium); }
+.sb-m { padding-bottom: var(--gutter-section-medium); }
+.st-l { padding-top: var(--gutter-section-large); }
+.sb-l { padding-bottom: var(--gutter-section-large); }
+.st-xl { padding-top: var(--gutter-section-xlarge); }
+.sb-xl { padding-bottom: var(--gutter-section-xlarge); }
+.st-e-s { padding-top: var(--gutter-element-small); }
+.sb-e-s { padding-bottom: var(--gutter-element-small); }
+.st-e-m { padding-top: var(--gutter-element-medium); }
+.sb-e-m { padding-bottom: var(--gutter-element-medium); }
+.st-e-l { padding-top: var(--gutter-element-large); }
+.sb-e-l { padding-bottom: var(--gutter-element-large); }
+.st-e-xl { padding-top: var(--gutter-element-xlarge); }
+.sb-e-xl { padding-bottom: var(--gutter-element-xlarge); }
+
