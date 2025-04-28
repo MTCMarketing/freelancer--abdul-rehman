@@ -265,6 +265,33 @@ This document outlines the different menu types you can use in your website navi
 <li class="menu-item">
   <a href="#">Home</a>
 </li>
+```
+
+
+## 5. Full-Screen Section Triggered by Hover (`menu-item-hover-section` with full-screen section)
+
+**Purpose:** A more complex interaction where hovering over a menu item reveals a full-screen, multi-column section of content.
+
+**Behavior:** On hover, the section beneath the navigation expands to take up most or all of the screen, offering a rich layout for images, links, and descriptions.
+
+**Use Case:** Best for large websites or eCommerce sites that need to display several sections of content at once, such as various product categories, top offers, or featured articles.
+
+### Example:
+
+```html
+<li class="menu-item menu-item-hover-section">
+  <a href="#">Discover</a>
+  <div class="hover-section full-screen">
+    <div class="column">Feature 1</div>
+    <div class="column">Feature 2</div>
+    <div class="column">Feature 3</div>
+    <div class="column">Feature 4</div>
+  </div>
+</li>
+```
+
+
+
 
 
 
