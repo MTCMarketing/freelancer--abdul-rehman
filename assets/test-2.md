@@ -56,6 +56,7 @@ This section provides an overview of the key HTML classes used in the navigation
 
 # CSS Styling & Variables
 
+```css
 .main-navigation {
   background-color: var(--primary-color);
   padding: 10px;
@@ -120,4 +121,4 @@ This section provides an overview of the key HTML classes used in the navigation
     width: 100%;
   }
 }
-
+```
