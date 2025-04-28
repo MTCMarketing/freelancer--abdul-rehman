@@ -251,6 +251,20 @@ This document outlines the different menu types you can use in your website navi
 </li>
 ```
 
+## 4. Regular Menu Item (`menu-item`)
+
+**Purpose:** A basic clickable menu item that links directly to a page or section.
+
+**Behavior:** This is the most straightforward type, with no hover-triggered content. It simply takes the user to a destination when clicked.
+
+**Use Case:** Ideal for navigation items that require minimal interaction, such as "Home," "About Us," or "Contact."
+
+### Example:
+
+```html
+<li class="menu-item">
+  <a href="#">Home</a>
+</li>
 
 
 
