@@ -14,3 +14,7 @@
 
 /* Importing typography styles that will rely on both variables and color definitions */
 @import url('basic-v1--typography.1.0.0.css');
+
+/* Importing custom classes */
+@import url('basic-v1--custom-classes.1.0.0.css');
+
