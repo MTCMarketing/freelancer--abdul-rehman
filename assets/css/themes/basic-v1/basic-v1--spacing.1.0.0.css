@@ -74,3 +74,45 @@ ul, ol {
 li {
     margin-bottom: 10px;
 }
+
+/* Media Queries for Device Sizes */
+@media (max-width: var(--media-small)) {
+    /* Small Device (phones) */
+    :root {
+        --gutter-section-top: 20px;  /* Adjust as needed */
+        --gutter-section-bottom: 20px;
+        --gutter-element-top: 10px;
+        --gutter-element-bottom: 10px;
+    }
+}
+
+@media (min-width: var(--media-small)) and (max-width: var(--media-medium)) {
+    /* Medium Device (tablets) */
+    :root {
+        --gutter-section-top: 30px;  /* Adjust as needed */
+        --gutter-section-bottom: 30px;
+        --gutter-element-top: 15px;
+        --gutter-element-bottom: 15px;
+    }
+}
+
+@media (min-width: var(--media-medium)) and (max-width: var(--media-large)) {
+    /* Large Device (laptops) */
+    :root {
+        --gutter-section-top: 40px;  /* Adjust as needed */
+        --gutter-section-bottom: 40px;
+        --gutter-element-top: 20px;
+        --gutter-element-bottom: 20px;
+    }
+}
+
+@media (min-width: var(--media-large)) {
+    /* Extra-Large Device (desktops) */
+    :root {
+        --gutter-section-top: 50px;  /* Adjust as needed */
+        --gutter-section-bottom: 50px;
+        --gutter-element-top: 25px;
+        --gutter-element-bottom: 25px;
+    }
+}
+
