@@ -38,6 +38,7 @@ The following is the basic structure of a navigation menu:
     </li>
   </ul>
 </nav>
+```
 
 # Key HTML Class Explanation
 
@@ -51,3 +52,4 @@ This section provides an overview of the key HTML classes used in the navigation
 - **`.menu-item-hover-section`**: Indicates a section that will appear when hovered, expanding into a large section with columns.
 - **`.hover-section`**: The large section that appears below the header when hovered.
 - **`.column`**: Individual column inside the section.
+
