@@ -285,3 +285,6 @@ Orientation-specific breakpoints (`portrait`, `landscape`) are optional but very
 | `--typography--font-size--desktop--type13`      | Font size for Button Text in desktop view.                                      |
 | `--typography--font-size--tablet--type13`       | Font size for Button Text in tablet view.                                       |
 | `--typography--font-size--mobile--type13`       | Font size for Button Text in mobile view.                                       |
+
+
+Typography variables/settings combine font family and font size into unified "typography types." Some fonts naturally appear larger or smaller than others, even at the same pixel size. (Example: Arial looks smaller than Oswald at 16px.) Typography types (type1, type2, type3) let you pair a font family and responsive font sizes into a matching style. Purpose: Ensures your font choices maintain visual balance across different device types without needing to manually adjust size or font on each element.
