@@ -42,9 +42,11 @@ Here is how to modify what t1 c1 actually do:
 - go to: assets/css/index.css
 - uncomment out or modify as necessary 
 - see below for a variable reference guide
+---
 
+# API Reference
 
-## Typography Class Table
+## Typography Class Table Ref
 Below is a breakdown of each typography variation's suggested use case:
 
 | **Class Name**        | **Typography Style**    | **Suggested Use**                                                           |
@@ -63,7 +65,7 @@ Below is a breakdown of each typography variation's suggested use case:
 | `.t12`                | Blog Post Titles        | Titles of blog posts, articles, or news updates.                           |
 | `.t13`                | Button Text             | Text inside buttons that trigger actions.                                  |
 
-## Color Class Table
+## Color Class Table  Ref
 You can apply different predefined color schemes to elements using these classes (mostly used to quickly transfer from dark to light contiainer of vice versa:
 
 | Class | Description |
@@ -71,6 +73,16 @@ You can apply different predefined color schemes to elements using these classes
 | `.c1` | Applies **Color Type 1** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
 | `.c2` | Applies **Color Type 2** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
 | `.c3` | Applies **Color Type 3** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
+
+## Color Class Table  Ref
+
+Add template level spacing to each element section. 
+| Class | Description |
+|-------|-------------|
+| `.sts` | Section Space Top (dynamic) - Applies top spacing to sections based on screen size using custom properties. |
+| `.sbs` | Section Space Bottom (dynamic) - Applies bottom spacing to sections based on screen size using custom properties. |
+| `.ste` | Element Space Top (dynamic) - Applies top spacing to elements based on screen size using custom properties. |
+| `.sbe` | Element Space Bottom (dynamic) - Applies bottom spacing to elements based on screen size using custom properties. |
 
 
 
