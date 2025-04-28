@@ -9,4 +9,4 @@ The container will contain only the following:
 
 For example when cloaning the following...
 
-<img width="500px" src="/assets/background-clone-example-after.png"/>
+<img width="700px" src="/assets/background-clone-example-after.png"/>
