@@ -14,89 +14,157 @@
 */
 
 :root {
+/* Default Colors */
+/* --color-background: #ffffff;  (Used for background color of the entire website) */
+/* --color-text: #333333;  (Used for primary text color) */
+/* --color-link: #0066cc;  (Used for hyperlink color) */
 
-    /* General Variables */
-    /*
-    --font-family-base: "Arial", sans-serif;
-    --font-size-base: 16px;
-    --line-height-base: 1.5;
-    --font-weight-normal: 400;
-    --font-weight-bold: 700;
-    */
+/* Primary Color Variants */
+/* --color-primary--type1: #003366;  (Used for primary color variant 1) */
+/* --color-primary--type2: #0066cc;  (Used for primary color variant 2) */
+/* --color-primary--type3: #80b3ff;  (Used for primary color variant 3) */
 
-    /* Default Colors */
-    /*
-    --color-background: #ffffff;
-    --color-text: #333333;
-    --color-link: #0066cc;
-    */
+/* Secondary Color Variants */
+/* --color-secondary--type1: #003366;  (Used for secondary color variant 1) */
+/* --color-secondary--type2: #006699;  (Used for secondary color variant 2) */
+/* --color-secondary--type3: #99ccff;  (Used for secondary color variant 3) */
 
-    /* Primary Color Variants */
-    /*
-    --color-primary--type1: #003366; 
-    --color-primary--type2: #0066cc; 
-    --color-primary--type3: #80b3ff;
-    */
+/* Accent Color Variants */
+/* --color-accent--type1: #ff4500;  (Used for accent color variant 1) */
+/* --color-accent--type2: #ff7f00;  (Used for accent color variant 2) */
+/* --color-accent--type3: #ffa500;  (Used for accent color variant 3) */
 
-    /* Secondary Color Variants */
-    /*
-    --color-secondary--type1: #003366; 
-    --color-secondary--type2: #006699; 
-    --color-secondary--type3: #99ccff;
-    */
+/* General Variables */
+/* --font-family-base: "Arial", sans-serif;  (Used for the base font family) */
+/* --font-size-base: 16px;  (Used for base font size) */
+/* --line-height-base: 1.5;  (Used for base line height) */
+/* --font-weight-normal: 400;  (Used for normal font weight) */
+/* --font-weight-bold: 700;  (Used for bold font weight) */
 
-    /* Accent Color Variants */
-    /*
-    --color-accent--type1: #ff4500; 
-    --color-accent--type2: #ff7f00; 
-    --color-accent--type3: #ffa500;
-    */
+/* --gutter-section-desktop: 40px;  (Used for spacing between sections on desktop) */
+/* --gutter-section-mobile: 20px;  (Used for spacing between sections on mobile) */
+/* --gutter-element-desktop: 15px;  (Used for spacing between elements on desktop) */
+/* --gutter-element-mobile: 10px;  (Used for spacing between elements on mobile) */
 
-    /* Typography - Font Families */
-    /*
-    --typography--font-family--type1: "Arial", sans-serif;
-    --typography--font-family--type2: "Georgia", serif;
-    --typography--font-family--type3: "Courier New", monospace;
-    */
+/* Default Breakpoints */
+/* --media-small: 576px;  (Used for small screen sizes like mobile devices) */
+/* --media-medium: 768px;  (Used for medium screen sizes like tablets) */
+/* --media-large: 992px;  (Used for large screen sizes like laptops) */
+/* --media-xlarge: 1200px;  (Used for extra-large screen sizes like desktops) */
 
-    /* Typography - Font Sizes (per device type) */
-    /*
-    --typography--font-size--desktop--type1: 16px;
-    --typography--font-size--tablet--type1: 15px;
-    --typography--font-size--mobile--type1: 14px;
+/* Landscape/Portrait Breakpoints */
+/* --media-mobile-portrait: 600px;  (Used for portrait mobile screens) */
+/* --media-mobile-landscape: 768px;  (Used for landscape mobile screens) */
+/* --media-tablet-portrait: 1024px;  (Used for tablet portrait screens) */
+/* --media-tablet-landscape: 1280px;  (Used for tablet landscape screens) */
 
-    --typography--font-size--desktop--type2: 18px;
-    --typography--font-size--tablet--type2: 17px;
-    --typography--font-size--mobile--type2: 16px;
+/* Default Font Family */
+/* --typography--font--default: "Arial", sans-serif;  (Used as default font family for all types) */
 
-    --typography--font-size--desktop--type3: 20px;
-    --typography--font-size--tablet--type3: 19px;
-    --typography--font-size--mobile--type3: 18px;
-    */
+/* Typography Variables (Font Families) */
+/* Type 1: Hero Title */
+/* --typography--font-family--type1: var(--typography--font--default);  (Used for the hero title) */
 
-    /* Gutter - Vertical Spacing */
-    /*
-    --gutter-section-desktop: 40px;
-    --gutter-section-mobile: 20px;
-    --gutter-element-desktop: 15px;
-    --gutter-element-mobile: 10px;
-    */
+/* Type 2: Hero Subtitle */
+/* --typography--font-family--type2: var(--typography--font--default);  (Used for the hero subtitle) */
 
-    /* Media Queries - Standard Breakpoints */
-    /*
-    --media-small: 576px;
-    --media-medium: 768px;
-    --media-large: 992px;
-    --media-xlarge: 1200px;
-    --media-extndable: 1600px;
-    --media-minimum: 350px;
-    */
+/* Type 3: Section Headings */
+/* --typography--font-family--type3: var(--typography--font--default);  (Used for section headings) */
 
-    /* Media Queries - Additional Device Breakpoints */
-    /*
-    --media-mobile-portrait: 600px;
-    --media-mobile-landscape: 768px;
-    --media-tablet-portrait: 1024px;
-    --media-tablet-landscape: 1280px;
-    */
+/* Type 4: Large Text Blocks (Main Content) */
+/* --typography--font-family--type4: var(--typography--font--default);  (Used for larger text blocks) */
+
+/* Type 5: Paragraph Text (Standard Text) */
+/* --typography--font-family--type5: var(--typography--font--default);  (Used for paragraph text) */
+
+/* Type 6: Smaller Text (Captions, small print) */
+/* --typography--font-family--type6: var(--typography--font--default);  (Used for captions and small print) */
+
+/* Type 7: Call-to-Action (CTA) Text */
+/* --typography--font-family--type7: var(--typography--font--default);  (Used for CTA text) */
+
+/* Type 8: Navigation Links */
+/* --typography--font-family--type8: var(--typography--font--default);  (Used for navigation links) */
+
+/* Type 9: Footer Text */
+/* --typography--font-family--type9: var(--typography--font--default);  (Used for footer text) */
+
+/* Type 10: Highlighted Text (Important Info) */
+/* --typography--font-family--type10: var(--typography--font--default);  (Used for highlighted text) */
+
+/* Type 11: Testimonials */
+/* --typography--font-family--type11: var(--typography--font--default);  (Used for testimonial text) */
+
+/* Type 12: Blog Post Titles */
+/* --typography--font-family--type12: var(--typography--font--default);  (Used for blog post titles) */
+
+/* Type 13: Button Text */
+/* --typography--font-family--type13: var(--typography--font--default);  (Used for button text) */
+
+/* Typography Variables (Font Sizes) */
+/* Hero Title - Large text for major headers */  
+/* --typography--font-size--desktop--type1: 16px;  (Font size for hero title on desktop) */
+/* --typography--font-size--tablet--type1: 15px;  (Font size for hero title on tablet) */
+/* --typography--font-size--mobile--type1: 14px;  (Font size for hero title on mobile) */
+
+/* Hero Subtitle - Subheading to hero title */
+/* --typography--font-size--desktop--type2: 18px;  (Font size for hero subtitle on desktop) */
+/* --typography--font-size--tablet--type2: 17px;  (Font size for hero subtitle on tablet) */
+/* --typography--font-size--mobile--type2: 16px;  (Font size for hero subtitle on mobile) */
+
+/* Section Headings - Used for section titles or large headings */
+/* --typography--font-size--desktop--type3: 20px;  (Font size for section headings on desktop) */
+/* --typography--font-size--tablet--type3: 19px;  (Font size for section headings on tablet) */
+/* --typography--font-size--mobile--type3: 18px;  (Font size for section headings on mobile) */
+
+/* Large Text Blocks (Main Content) - For paragraphs, larger body content */
+/* --typography--font-size--desktop--type4: 22px;  (Font size for main content on desktop) */
+/* --typography--font-size--tablet--type4: 21px;  (Font size for main content on tablet) */
+/* --typography--font-size--mobile--type4: 20px;  (Font size for main content on mobile) */
+
+/* Paragraph Text (Standard Text) - Regular body text for easy reading */
+/* --typography--font-size--desktop--type5: 24px;  (Font size for paragraph text on desktop) */
+/* --typography--font-size--tablet--type5: 23px;  (Font size for paragraph text on tablet) */
+/* --typography--font-size--mobile--type5: 22px;  (Font size for paragraph text on mobile) */
+
+/* Smaller Text (Captions, small print) - For fine print or captions */    
+/* --typography--font-size--desktop--type6: 14px;  (Font size for smaller text on desktop) */
+/* --typography--font-size--tablet--type6: 13px;  (Font size for smaller text on tablet) */
+/* --typography--font-size--mobile--type6: 12px;  (Font size for smaller text on mobile) */
+
+/* Call-to-Action (CTA) Text - Highlighted action text */   
+/* --typography--font-size--desktop--type7: 15px;  (Font size for CTA text on desktop) */
+/* --typography--font-size--tablet--type7: 14px;  (Font size for CTA text on tablet) */
+/* --typography--font-size--mobile--type7: 13px;  (Font size for CTA text on mobile) */
+
+/* Navigation Links - Links used in the header/navigation menu */
+/* --typography--font-size--desktop--type8: 19px;  (Font size for navigation links on desktop) */
+/* --typography--font-size--tablet--type8: 18px;  (Font size for navigation links on tablet) */
+/* --typography--font-size--mobile--type8: 17px;  (Font size for navigation links on mobile) */
+
+/* Footer Text - Smaller text for footer links or copyright */
+/* --typography--font-size--desktop--type9: 17px;  (Font size for footer text on desktop) */
+/* --typography--font-size--tablet--type9: 16px;  (Font size for footer text on tablet) */
+/* --typography--font-size--mobile--type9: 15px;  (Font size for footer text on mobile) */
+
+/* Type 10: Highlighted Text (Important Info) */
+/* --typography--font-size--desktop--type10: 21px;  (Font size for highlighted text on desktop) */
+/* --typography--font-size--tablet--type10: 20px;  (Font size for highlighted text on tablet) */
+/* --typography--font-size--mobile--type10: 19px;  (Font size for highlighted text on mobile) */
+
+/* Type 11: Testimonials */
+/* --typography--font-size--desktop--type11: 23px;  (Font size for testimonial text on desktop) */
+/* --typography--font-size--tablet--type11: 22px;  (Font size for testimonial text on tablet) */
+/* --typography--font-size--mobile--type11: 21px;  (Font size for testimonial text on mobile) */
+
+/* Type 12: Blog Post Titles */
+/* --typography--font-size--desktop--type12: 25px;  (Font size for blog post titles on desktop) */
+/* --typography--font-size--tablet--type12: 24px;  (Font size for blog post titles on tablet) */
+/* --typography--font-size--mobile--type12: 23px;  (Font size for blog post titles on mobile) */
+
+/* Type 13: Button Text */
+/* --typography--font-size--desktop--type13: 26px;  (Font size for button text on desktop) */
+/* --typography--font-size--tablet--type13: 25px;  (Font size for button text on tablet) */
+/* --typography--font-size--mobile--type13: 24px;  (Font size for button text on mobile) */
+
 }
