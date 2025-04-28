@@ -4,13 +4,26 @@ This document explains the customizable CSS variables, color variants, typograph
 Follow this guide to understand what each section does and how to use them effectively across your site.
 
 ---
-## Quick Usage Example
+## Quick Usage - Example 1
 This is super simple, so dont overthink it. We can set preset themes in the following way. For example if we want to set an element to use typography-type-1 and color-type-1, we do so like:
 
 ```html
   <div className="t1 c1"/>
 ```
 
+## Quick Usage - Example 2
+In another example say we move the following div from a light container (ex: white background and black text) to a dark container (ex: black background white text) we just change the previous to this:
+
+```html
+  <div className="t1 c2"/>
+```
+
+
+## Quick Template Override - Example 3
+Here is how to modify what t1 c1 actually do:
+- go to: assets/css/index.css
+- uncomment out or modify as necessary 
+- see below for a variable reference guide
 
 
 
