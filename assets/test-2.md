@@ -211,6 +211,45 @@ This document outlines the different menu types you can use in your website navi
 </li>
 
 
+## 3. Menu Item with Columns (`hover-section with column`)
+
+**Purpose:** Allows for grouping content in columns when hovering over a menu item, usually in the form of categories or content blocks.
+
+**Behavior:** When the parent menu item is hovered over, a large section (often spanning the full width of the page) appears, divided into multiple columns. Each column can contain additional links, images, or content blocks.
+
+**Use Case:** Perfect for displaying a lot of content in an organized, structured way. This type is useful when you want to group several categories or products under a single menu heading.
+
+### Example:
+
+```html
+<li class="menu-item menu-item-hover-section">
+  <a href="#">Solutions</a>
+  <div class="hover-section">
+    <div class="column">
+      <h3>Category 1</h3>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Category 2</h3>
+      <ul>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Category 3</h3>
+      <ul>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 6</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+```
+
 
 
 
