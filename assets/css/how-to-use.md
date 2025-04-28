@@ -44,8 +44,7 @@ Here is how to modify what t1 c1 actually do:
 - see below for a variable reference guide
 
 
-## Suggested Usage
-
+## Typography Class Table
 Below is a breakdown of each typography variation's suggested use case:
 
 | **Class Name**        | **Typography Style**    | **Suggested Use**                                                           |
@@ -63,6 +62,15 @@ Below is a breakdown of each typography variation's suggested use case:
 | `.t11`                | Testimonials            | Customer or client feedback section.                                       |
 | `.t12`                | Blog Post Titles        | Titles of blog posts, articles, or news updates.                           |
 | `.t13`                | Button Text             | Text inside buttons that trigger actions.                                  |
+
+## Color Class Table
+You can apply different predefined color schemes to elements using these classes (mostly used to quickly transfer from dark to light contiainer of vice versa:
+
+| Class | Description |
+| :----- | :----------- |
+| `.c1` | Applies **Color Type 1** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
+| `.c2` | Applies **Color Type 2** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
+| `.c3` | Applies **Color Type 3** settings (Primary: `#003366`, Secondary: `#003366`, Accent: `#ffa500`). |
 
 
 
