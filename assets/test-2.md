@@ -209,6 +209,7 @@ This document outlines the different menu types you can use in your website navi
     <div class="column">Product 3</div>
   </div>
 </li>
+```
 
 
 ## 3. Menu Item with Columns (`hover-section with column`)
