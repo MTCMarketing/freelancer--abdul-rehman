@@ -4,8 +4,23 @@
  * You can add or remove individual plugins based on your needs.
  */
 
-@import 'plugin--responsive-typography.css';
-@import 'plugin--mobile-friendly-tap-targets.css';
-@import 'plugin--fluid-grid-layout.css';
-@import 'plugin--accessibility-focus-states.css';
-@import 'plugin--scrollbar-hidden.css';
+/* Accessibility Focus States */
+@import url('plugin--accessibility-focus-states.css');
+
+/* Fluid Grid Layout */
+@import url('plugin--fluid-grid-layout.css');
+
+/* Minimum Width for Accessibility */
+@import url('plugin--minimum.css');
+
+/* Mobile Friendly Tap Targets */
+@import url('plugin--mobile-friendly-tap-targets.css');
+
+/* Prevent Text Selection */
+@import url('plugin--noselect.css');
+
+/* Responsive Typography */
+@import url('plugin--responsive-typography.css');
+
+/* Hide Scrollbars */
+@import url('plugin--scrollbar-hidden.css');
