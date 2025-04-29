@@ -324,6 +324,16 @@ This document outlines the different menu types you can use in your website navi
 
 By implementing these improvements, the navigation system would not only maintain a high level of customization but also improve performance, accessibility, and SEO, making it a more robust solution.
 
+---
+
+# Future Direction
+make a series or set of standardized html structures and class-names, for all kinds of common things (e.g. sliders, menus, footers, three-to-one containers, links, lists, tables, etc...) and then be able to have a list of templates that can be applied to them. 
+
+1. Something like react but with zero js execution...
+
+
+
+
 
 
 
