@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.sliding-text-section {
+  position: relative;
+  width: 100%;
+  height: 550px; /* Increased from 350px */
+  overflow: hidden;
+}
+
+.sliding-text-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/assets/cta/cta-video.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+/* Add overlay for the background image */
+.sliding-text-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(66.34% 66.34% at 50% 25.71%, rgba(16, 24, 40, .3) 0, rgba(16, 24, 40, .97) 100%);
+  z-index: 2;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Ring Animation */
+.play-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.8);
+    opacity: 0;
+  }
+}
+
+.play-button svg {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+
+.sliding-text-container {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  z-index: 3; /* Increased z-index to appear above the overlay */
+  overflow: hidden;
+}
+
+.sliding-text-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.sliding-text {
+  display: flex;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+  font-size: 124px; /* Increased font size to match image */
+  font-weight: 600;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: slideText 20s linear infinite;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}
+
+.sliding-text span {
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-separator {
+  margin: 0 20px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 992px) {
+  .sliding-text-section {
+    height: 400px; /* Increased from 300px */
+  }
+  
+  .sliding-text {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sliding-text-section {
+    height: 350px; /* Increased from 250px */
+  }
+  
+  .sliding-text {
+    font-size: 70px;
+  }
+  
+  .play-button {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliding-text-section {
+    height: 300px; /* Increased from 200px */
+  }
+  
+  .sliding-text {
+    font-size: 50px;
+  }
+  
+  .play-button {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+

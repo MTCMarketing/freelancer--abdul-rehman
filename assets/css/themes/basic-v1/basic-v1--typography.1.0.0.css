@@ -1,4 +1,4 @@
-media (min-width: var(--media-small)) {
+@media (min-width: var(--media-small)) {
     body {
         font-size: var(--font-size-small);
     }

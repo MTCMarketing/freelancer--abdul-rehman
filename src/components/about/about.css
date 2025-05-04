@@ -1,0 +1,356 @@
+.about-section {
+  padding: 100px 0;
+  background-color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+/* Images section */
+.about-images-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+.about-images {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+}
+
+.about-image {
+  border-radius: 12px;
+  object-fit: cover;
+  height: 100%;
+  width: 48%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.left-image {
+  position: relative;
+  z-index: 1;
+}
+
+.right-image {
+  position: relative;
+  z-index: 2;
+  margin-top: 50px;
+}
+
+.badges-container {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  width: 100%;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+}
+
+.experience-badge {
+  background-color: #6C2BF9;
+  flex: 1;
+  border-radius: 12px 0px 0px 12px;
+  padding-left: 25px;
+}
+
+.star-icon {
+  margin-left: 43px;
+  font-size: 20px;
+}
+
+.awards-badge {
+  background-color: #6C2BF9;
+  flex: 1;
+  text-align: center;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Content section */
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6C2BF9;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.icon {
+  color: #FFD700;
+  font-size: 18px;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #101828;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.about-description {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Features */
+.about-features {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #334155;
+}
+
+.check-icon {
+  color: #6C2BF9;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CTA section */
+.about-cta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.learn-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #6C2BF9;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #5a23d0;
+}
+
+.arrow-icon {
+  font-size: 18px;
+}
+
+.founder-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.founder-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.founder-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.founder-name {
+  font-weight: 600;
+  color: #101828;
+  font-size: 14px;
+}
+
+.founder-title {
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .about-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .about-images-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 70px 0;
+  }
+  
+  .about-title {
+    font-size: 30px;
+  }
+  
+  .about-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .badges-container {
+    flex-direction: column;
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-images {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+  
+  .about-title {
+    font-size: 26px;
+  }
+  
+  .left-image, .right-image {
+    width: 100%;
+    height: 621px;
+    margin-top: 0;
+  }
+  
+  .right-image {
+    display: block;
+    position: relative;
+  }
+  
+  .badges-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+  }
+  
+  .experience-badge, .awards-badge {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .about-images-wrapper {
+    margin-bottom: 30px;
+  }
+}
+
+/* Ensure images display properly on all devices */
+@media (max-width: 480px) {
+  .about-images-wrapper {
+    display: block;
+  }
+  
+  .left-image, .right-image {
+    height: 479px;
+  }
+     .star-icon {
+     display: none;
+     }
+}
+
+/* Mobile-specific badges */
+@media (max-width: 576px) {
+  .badges-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #6C2BF9;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  .badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    background-color: transparent;
+  }
+  
+  .experience-badge, .awards-badge {
+    background-color: transparent;
+    border-radius: 0;
+  }
+  
+  .experience-badge {
+    padding-left: 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .star-icon {
+    margin-left: 38px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .awards-badge {
+    padding-right: 15px;
+    text-align: center;
+  }
+}
+
+/* Ensure the badges look good on very small screens */
+@media (max-width: 380px) {
+  .badge {
+    font-size: 12px;
+    padding: 10px 8px;
+  }
+  
+  .star-icon {
+    margin-left: 5px;
+  }
+}
+
+

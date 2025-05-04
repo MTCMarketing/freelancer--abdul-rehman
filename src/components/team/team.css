@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.team-section {
+  padding: 100px 0;
+  background-color: #f9f9ff;
+  font-family: 'Inter', sans-serif;
+}
+
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.team-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 550px) minmax(0, 650px);
+  grid-template-rows: auto auto;
+  gap: 24px;
+}
+
+.team-header-area {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.team-header {
+  max-width: 550px;
+  margin-bottom: 60px;
+}
+
+.team-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  color: #6C2BF9;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.team-icon {
+  font-size: 20px;
+  color: #FFD700;
+}
+
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #101828;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+}
+
+.team-description {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.team-featured {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.team-regular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+/* Make all member images the same size */
+.team-featured .member-image,
+.team-regular .member-image {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Square aspect ratio for all images */
+  position: relative;
+  overflow: hidden;
+}
+
+.member-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Make all cards the same size and style */
+.team-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Standardize member info padding */
+.member-info {
+  padding: 16px;
+  position: relative;
+}
+
+.member-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101828;
+  margin: 0 0 5px 0;
+}
+
+.member-position {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Position the add button for featured members */
+.featured .add-button {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* Position the add button for regular members */
+.team-regular .add-button {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* Unified add button styling for all cards */
+.add-button {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #f0ebff;
+  border: none;
+  color: #6C2BF9;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #6C2BF9;
+  color: white;
+}
+
+/* Featured cards plus button */
+.team-featured .add-button {
+  right: 16px;
+}
+
+/* Regular cards plus button */
+.team-regular .add-button {
+  right: 16px;
+}
+
+.view-more-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.view-more-button {
+  background-color: #6C2BF9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+  background-color: #5a1fe0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Position view more button on the left side on mobile */
+  .view-more-container {
+    justify-content: flex-start;
+  }
+  
+  /* Other mobile adjustments... */
+  .team-featured .team-card,
+  .team-regular .team-card {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .team-featured .member-info,
+  .team-regular .member-info {
+    padding: 12px 16px;
+  }
+  
+  .team-featured .member-name,
+  .team-regular .member-name {
+    margin: 0 0 3px 0;
+  }
+  
+  .social-buttons {
+    transform: scale(0.85);
+    transform-origin: bottom right;
+  }
+  
+  .plus-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .social-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-featured .team-card,
+  .team-regular .team-card {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .social-buttons {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 1200px) {
+  .team-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-header-area {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .team-featured {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .team-regular {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  
+  .view-more-container {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
+
+@media (max-width: 992px) {
+  .team-featured {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .team-regular {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    padding: 70px 0;
+  }
+  
+  .team-title {
+    font-size: 30px;
+  }
+  
+  .team-featured {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-regular {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-section {
+    padding: 50px 0;
+  }
+  
+  .team-title {
+    font-size: 26px;
+  }
+  
+  .team-header {
+    margin-bottom: 40px;
+  }
+  
+  .member-name {
+    font-size: 16px;
+  }
+  
+  .member-position {
+    font-size: 13px;
+  }
+}
+
+/* Responsive adjustments for social buttons */
+@media (max-width: 992px) {
+  .social-buttons {
+    transform: scale(0.9);
+    transform-origin: bottom right;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Make featured cards same size as regular cards on mobile */
+  .team-featured .team-card,
+  .team-regular .team-card {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .team-featured .member-info,
+  .team-regular .member-info {
+    padding: 12px 16px;
+  }
+  
+  .team-featured .member-name,
+  .team-regular .member-name {
+    margin: 0 0 3px 0;
+  }
+  
+  .social-buttons {
+    transform: scale(0.85);
+    transform-origin: bottom right;
+  }
+  
+  .plus-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .social-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-featured .team-card,
+  .team-regular .team-card {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .social-buttons {
+    transform: scale(0.8);
+  }
+}
+
+/* Mobile-specific card styling */
+@media (max-width: 768px) {
+  /* Make all cards match the design in the image */
+  .team-featured .team-card,
+  .team-regular .team-card {
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+  
+  /* Make images rectangular with rounded corners */
+  .team-featured .member-image,
+  .team-regular .member-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* 4:3 aspect ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+  }
+  
+  /* Adjust member info section */
+  .team-featured .member-info,
+  .team-regular .member-info {
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  /* Style member name */
+  .team-featured .member-name,
+  .team-regular .member-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #101828;
+    margin: 0 0 4px 0;
+  }
+  
+  /* Style member position */
+  .team-featured .member-position,
+  .team-regular .member-position {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0;
+  }
+  
+  /* Position the add button */
+  .add-button {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #f0ebff;
+    border: none;
+    color: #6C2BF9;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #6C2BF9;
+    color: white;
+  }
+  
+  /* Position view more button on the left side on mobile */
+  .view-more-container {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  /* Other mobile adjustments */
+  .social-buttons {
+    transform: scale(0.85);
+    transform-origin: bottom right;
+  }
+}
+
+/* Small mobile adjustments */
+@media (max-width: 576px) {
+  .team-featured .team-card,
+  .team-regular .team-card {
+    max-width: 335px;
+  }
+}
+
+
+
+
+
+
+

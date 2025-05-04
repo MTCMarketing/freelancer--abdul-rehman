@@ -1,0 +1,28 @@
+/* src/styles/styles.css */
+
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: black; /* Hide track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #7e0eff, #9200d1);
+    border-radius: 9px;
+  }
+  
+  /* Firefox support */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #2f006d transparent;
+  }
+  
+  /* Apply to a specific container (optional) */
+  .custom-scroll-container {
+    height: 30px;
+    overflow-y: auto;
+  }

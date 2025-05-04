@@ -1,0 +1,652 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Common styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Desktop Navbar styles */
+.desktop-navbar {
+  background-color: #0f172a;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.desktop-navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Add a container for the right side elements */
+.desktop-navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo styles */
+.desktop-navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.desktop-logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Desktop Menu Links */
+.desktop-menu-links {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-menu-item {
+  margin: 0 15px;
+  position: relative;
+}
+
+.desktop-menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-arrow {
+  font-size: 10px;
+  margin-left: 5px;
+  opacity: 0.7;
+}
+.arrow-react{
+  width: 24px;
+  height: 36px;
+  top: 2px;
+  margin-top: 5px ;
+}
+
+/* Desktop Menu Toggle Button */
+.desktop-menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: white;
+  margin-left: 15px;
+}
+
+.desktop-menu-toggle svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Call Button */
+.desktop-call-button {
+  display: flex;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.call-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7C3AED;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.call-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.call-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-text {
+  font-size: 14px;
+  opacity: 0.8;
+  color: white;
+}
+
+.call-number {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Mobile Navbar */
+.mobile-navbar {
+  background-color: #0f172a;
+  color: white;
+  padding: 15px 20px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.mobile-navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mobile-navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mobile-logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Mobile Menu Button */
+.mobile-menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.mobile-menu-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Mobile Sidebar Menu */
+.mobile-sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 320px;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 1000;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-sidebar.open {
+  right: 0;
+}
+
+.mobile-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.mobile-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.close-btn {
+  background-color: #7C3AED;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.close-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Mobile menu links */
+.mobile-menu-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #0a0a29;
+  color: white;
+}
+
+.mobile-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.expand-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: white;
+}
+
+.expand-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Mobile contact info */
+.mobile-contact-info {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mobile-contact-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-item svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  color: #7C3AED;
+}
+
+.contact-item span {
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-us-btn {
+  background-color: #7C3AED;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 0.3s;
+  width: calc(100% - 40px);
+  text-align: center;
+}
+
+.contact-us-btn:hover {
+  background-color: #6D28D9;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 20px 20px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: #000;
+  border: 1px solid #eee;
+  transition: all 0.3s;
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.social-icon:hover {
+  background-color: #7C3AED;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .desktop-navbar {
+    display: none; /* Hide desktop navbar on mobile */
+  }
+  
+  .mobile-navbar {
+    display: flex;
+  }
+}
+
+@media (min-width: 993px) {
+  .mobile-navbar {
+    display: none; /* Hide mobile navbar on desktop */
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-sidebar {
+    width: 380px;
+  }
+}
+
+/* Support for forced-colors mode for accessibility */
+@media (forced-colors: active) {
+  .mobile-menu-btn,
+  .close-btn,
+  .expand-btn,
+  .contact-us-btn,
+  .social-icon {
+    border: 1px solid ButtonText;
+  }
+}
+
+/* Desktop Sidebar Menu */
+.desktop-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 1000;
+  overflow-y: auto;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 30px;
+}
+
+/* Show sidebar when open class is applied */
+.desktop-sidebar.open {
+  transform: translateX(0);
+}
+
+.desktop-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.desktop-sidebar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.desktop-sidebar-logo .logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.desktop-sidebar .close-btn {
+  background-color: #7C3AED;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Sidebar description */
+.sidebar-description {
+  margin-bottom: 40px;
+}
+
+.sidebar-description p {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Desktop Sidebar Menu Items */
+.desktop-sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #0f172a;
+  color: white;
+}
+
+.sidebar-menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar-expand-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: white;
+}
+
+.sidebar-expand-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Desktop Sidebar Contact Info */
+.desktop-sidebar-contact {
+  margin-bottom: 30px;
+}
+
+.desktop-sidebar-contact h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.desktop-sidebar .contact-item1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.desktop-sidebar .contact-item1 svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.contact-us-btn {
+  background-color: #7C3AED;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background-color 0.3s;
+}
+
+.contact-us-btn:hover {
+  background-color: #6D28D9;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: #0f172a;
+  transition: all 0.3s;
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.social-icon:hover {
+  background-color: #7C3AED;
+  color: white;
+}
+
+/* Responsive styles for desktop sidebar */
+@media (max-width: 992px) {
+  .desktop-sidebar {
+    display: none; /* Hide desktop sidebar on mobile */
+  }
+}
+
+/* Support for forced-colors mode for accessibility */
+@media (forced-colors: active) {
+  .desktop-sidebar .close-btn,
+  .desktop-sidebar .sidebar-expand-btn,
+  .desktop-sidebar .contact-us-btn,
+  .desktop-sidebar .social-icon {
+    border: 1px solid ButtonText;
+  }
+}
+
+/* Add overlay when sidebar is open */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Backdrop overlay */
+.backdrop-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.backdrop-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Make sure sidebars have higher z-index than the overlay */
+.desktop-sidebar, .mobile-sidebar {
+  z-index: 100;
+}
